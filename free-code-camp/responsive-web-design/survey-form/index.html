@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Edible Mushrooms Consumption Survey</title>
+  <link rel="stylesheet" href="master.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <main id="main">
+    <h1 id="title">Edible Mushrooms Consumption Survey</h1>
+    <div class="container">
+      <p id="description"><strong> Let us know about the role of edible mushrooms in your diet</strong></p>
+      <form id="survey-form">
+        <div class="rowTab">
+          <div class="labels"><label id="name-label" for="name"><span class="asterisk">*</span> Name: </label></div>
+          <div class="rightTab"><input class="input-field" id="name" type="text" name="name" placeholder="Your name here" required></div>
+        </div>
+        <div class="rowTab">
+          <div class="labels"><label id="email-label" for="email"><span class="asterisk">*</span> Email address: </div>
+          <div class="rightTab"><input class="input-field" id="email" type="email" name="email" placeholder="Your email here" required></div>
+        </div>
+        <div class="rowTab">
+          <div class="labels"><label id="number-label" for="number" name="number"><span class="asterisk">*</span> Age: </label></div>
+          <div class="rightTab"><input class="input-field" id="number" type="number" min="0" max="110" placeholder="Age" required></div>
+        </div>
+        <div class="rowTab">
+          <div class="labels"><label id="dropdown-label" for="dropdown">How often do you eat mushrooms: </label></div>
+          <div class="rightTab">
+            <select id="dropdown" name="dropdown" class="dropdown">
+              <option disabled value>Select an option</option>
+              <option value="never">Never</option>
+              <option value="seldom">Seldom</option>
+              <option value="sometimes">Sometimes</option>
+              <option value="usually">Usually</option>
+              <option value="always">Always</option>
+            </select>
+          </div>
+        </div>
+        <div id="rowTab">
+          <fieldset>
+            <div class="labels">
+              <legend>Are you interested in the medicinal and nutritional properties of mushrooms?:</legend>
+            </div>
+            <div class="rightTab">
+              <ul class="radio">
+                <li><label id="radio-buttons-label1"><input class="yesNo" id="option1" type="radio" name="radio-buttons" value="yes">Yes</label>
+                <li><label id="radio-buttons-label2"><input class="yesNo" id="option2" type="radio" name="radio-buttons" value="maybe">Maybe</label>
+                <li><label id="radio-buttons-label3"><input class="yesNo" id="option3" type="radio" name="radio-buttons" value="no">No</label>
+              </ul>
+            </div>
+        </div>
+        </fieldset>
+        <fieldset>
+          <div id="mushrooms" class="mushrooms">
+            <div class="mushrooms-label">
+              <legend>Which of the following mushrooms have you tried at least once:</legend>
+            </div>
+            <div class="mushrooms-options">
+              <ul style="list-style: none;">
+                <li><input id="checkbox1" type="checkbox" value="agaricus">
+                  <label id="checkbox1-label" for="checkbox1"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Portobello_mushrooms.jpg" class="mushroom-picture" alt="Agaricus bisporus">Cremini/Portobello/White Button mushroom
+                    (<i>Agaricus
+                      bisporus</i>)</label>
+
+                <li><input id="checkbox2" type="checkbox" value="oyster">
+                  <label id="checkbox2-label" for="checkbox2"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/2010-10-28_Pleurotus_ostreatus_%28Jacq.%29_P._Kumm_116409_cropped.jpg" class="mushroom-picture" alt="Pleurotus">Oyster
+                    mushroom
+                    (<i>Pleurotus</i> sp.)</label>
+
+                <li><input id="checkbox3" type="checkbox" value="reishi">
+                  <label id="checkbox3-label" for="checkbox3"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Jreishi888.jpg" class="mushroom-picture" alt="Ganoderma lucidum">Reishi or Ling Zhi (<i>Ganoderma lucidum</i>)</label>
+                <li><input id="checkbox4" type="checkbox" value="shiitake">
+                  <label id="checkbox4-label" for="checkbox4"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Lentinula_edodes_20101113_a.jpg" class="mushroom-picture" alt="Lentinula edodes">Shiitake (<i>Letinula edodes</i>)</label>
+
+                <li><input id="checkbox5" type="checkbox" value="morchella">
+                  <label id="checkbox5-label" for="checkbox5"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Speise_Morchel_Morchella_esculenta.jpg" class="mushroom-picture" alt="Morchella esculenta">Morel mushrooms (<i>Morchella
+                      esculenta</i>)</label>
+
+                <li><input id="checkbox6" type="checkbox" value="hericium">
+                  <label id="checkbox6-label" for="checkbox6"><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/2006-11-03_Hericium_erinaceus_crop.jpg" class="mushroom-picture" alt="Hericium erinaceus">Lion's mane mushrooms (<i>Hericium
+                      erinaceus</i>)</label>
+
+                <li><input id="checkbox7" type="checkbox" value="porcini">
+                  <label id="checkbox7-label" for="checkbox7"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Boletus_edulis_%28Tillegem%29.jpg" class="mushroom-picture" alt="Boletus edulis">Porcini mushrooms (<i>Boletus
+                      edulis</i>)</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="rowTab">
+          <div class="labels"> <label id="textarea-label" for="textarea">Comments:</label></div>
+          <div class="rightTab"> <textarea class="comment-field" id="textarea" name="textarea" placeholder="Add your comments here"></textarea></div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="footer">
+      <footer> Survey Form Project for <a style="color: hotpink;" href="http:\\www.freecodecamp.org" target="_blank">freeCodeCamp.org</a> by Maximiliano Bidegain</footer>
+    </div>
+  </main>
+</body>
+
+</html>
