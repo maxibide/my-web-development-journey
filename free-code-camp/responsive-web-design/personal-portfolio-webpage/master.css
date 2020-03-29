@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei:400);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: "ZCOOL XiaoWei", Arial;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding-top: 20px;
+  background-color: #C5C9A4;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 30px;
+  color: #476A6F;
+}
+
+#welcome-section {
+  background-color: #C5C9A4;
+  top: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  margin: 20px;
+  padding-top: 150px;
+}
+
+#welcome-section p {
+  margin: 20px;
+}
+
+#my-picture {
+  height: 25vh;
+  border-radius: 5px;
+}
+
+#projects {
+  text-align: center;
+  width: 100%;
+  background-color: #7EB09B;
+  padding-top: 20px;
+  margin-top: -20px;
+}
+
+#projects h2 {
+  margin: 20px;
+}
+
+#projects h3 {
+  margin: 15px;
+  border: 2px solid #476A6F;
+  padding: 10px;
+}
+
+.project-img {
+  width: 250px;
+  height: 200px;
+  margin: 15px;
+  object-fit: cover;
+  border: 1px solid #8fb339;
+  border-radius: 5%;
+}
+
+.project-tile {
+  display: inline-block;
+  border: 2px solid #476A6F;
+  margin: 15px;
+  width: 45%;
+}
+
+#contact {
+  background-color: #519E8A;
+  text-align: center;
+}
+
+#contact h2 {
+  padding: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #F4F5EE;
+  font-size: 20px;
+}
+
+#freecodecamp, #email, #github, #twitter {
+  display: inline-block;
+  padding: 20px;
+  background-color: blue;
+  border: 10px solid #519E8A;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#freecodecamp {
+  width: 40%;
+}
+
+#email {
+  width: 40%;
+}
+
+#github {
+  width: 30%;
+}
+
+#twitter {
+  width: 30%;
+}
+
+#freecodecamp:hover, #email:hover, #github:hover, #twitter:hover {
+  background-color: black;
+}
+
+footer {
+  padding: 40px 40px 0px 40px;
+  text-align: center;
+  background-color: #476A6F
+}
+
+footer a {
+  color: lightpink;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    object-fit: cover;
+    border: 1px solid #8fb339;
+    border-radius: 5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .project-img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    object-fit: cover;
+    border: 1px solid #8fb339;
+    border-radius: 5%;
+  }
+
+  * {
+    font-size: 0.95em;
+  }
+}
