@@ -13,4 +13,5 @@
 * [Tribute Page](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/tribute-page/)
 * [Survey Form](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/survey-form/)
 * [Product Landing Page](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/product-landing-page/)
+* [Technical Documentation Page](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/technical-documentation-page/)
 
