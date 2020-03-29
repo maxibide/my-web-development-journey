@@ -1,0 +1,265 @@
+@import "https://fonts.googleapis.com/css?family=Nunito";
+@import "https://fonts.googleapis.com/css?family=Acme";
+
+.main {
+  background-color: #eff1f3;
+  font-family: Nunito, Helvetica;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Acme, Helvetica;
+  text-align: center;
+  color: #223843;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Acme, Helvetica;
+  text-align: center;
+  color: #223843;
+}
+
+h3 {
+  text-align: center;
+}
+
+#header-img {
+  width: 20%;
+  min-width: 150px;
+  margin: 5px;
+  padding: 5px 5px 0px 5px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  background-color: #d77a71;
+  color: #dbd3d8;
+  font-family: Nunito, Helvetica;
+  font-size: 20px;
+}
+
+.species {
+  font-style: italic;
+}
+
+.header-image {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+}
+
+#nav-bar {
+  display: inline-block;
+  width: 48%;
+  text-align: right;
+}
+.nav-link {
+  padding: 20px;
+  color: #eff1f3;
+  text-decoration: none;
+}
+
+.infobox-container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.infobox {
+  width: 45%;
+  text-align: justify;
+  margin: 10px;
+  border: 2px solid #d77a71;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#ganoderma,
+#propiedades,
+#productos,
+#laboratorio {
+  padding-top: 100px;
+}
+
+#Health {
+}
+
+#Products {
+}
+
+#product-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  background-color: #d8b4a0;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+.video {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.caption {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.product-image {
+  max-width: 33%;
+  max-height: 100px;
+}
+
+.product-email {
+  text-align: center;
+}
+
+#email {
+  display: inline-block;
+  width: 20%;
+  height: 20px;
+  text-align: left;
+  margin-top: 5px;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid #223843
+  border-radius: 3px;
+}
+
+#submit{
+  margin: 10px;
+  background-color: #223843;
+  color: #dbd3d8;
+  border: 0px solid;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  height: 40px;
+  width: 96px;
+  padding: 10px;
+}
+
+#submit:hover{
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #223843;
+  color: #dbd3d8;
+  height: 40px;
+}
+
+.FCClink{
+  color:lightpink;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .infobox{
+    width:100%;
+  }
+
+#product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product {
+  background-color: #d8b4a0;
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+  h1{
+    font-size:35px;
+  }
+
+  h2{
+    font-size:25px;
+  }
+
+  h3{
+    font-size:20px;
+  }
+
+  main{
+    font-size:15px;
+  }
+
+  .video{
+    padding:5px;
+    width:50%;
+    height:50%;
+  }
+
+  .nav-links{
+   padding: 0px;
+   font-size:15px;
+    }
+
+  #email {
+  display: inline-block;
+  width: 40%;
+  height: 15px;
+  text-align: left;
+  margin-top: 5px;
+  padding: 5px;
+  vertical-align: middle;
+  border: 1px solid #223843
+  border-radius: 3px;
+}
+
+#submit{
+  margin: 5px;
+  background-color: #223843;
+  color: #dbd3d8;
+  border: 0px solid;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  height: 30px;
+  width: 72px;
+  padding: 5px;
+}
+
+  footer{
+    display:block;
+    text-align:center;
+    font-size:10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #copyright,
+  #FCC,
+  #footer-links{
+    margin:5px;
+  }
+
+
+}
