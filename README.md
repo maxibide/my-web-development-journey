@@ -1,3 +1,18 @@
+# Background
+I am a Pharmacist and I have a PhD in food science and technology. I've been always interested in technology and computer programming in particular. Through the years I read and played with code a bit, but it was in 2019 that I decided that I wanted to learn programming in a more systematic way. I took some time to research and found that Full Stack Web Development was one of the most active areas in computer programming and the one that had the best resources to study from.
+
+First, I started with the [freeCodeCamp](www.freecodecamp.org) curriculum and completed the first two certificates. However, I felt that I was lacking some theorical knowledge. That's when I found [The Odin Project](www.theodinproject.com), another online free web development course that had more organized links to reading material and videos. I found that the two courses complement each other very well, one with a more practical aproach, and the other digging deeper into concepts. That's why I decided to take both at the same time.
+
+So, here I will document the progress and all the projects I make in this journey.
+
+# Progress
+
+* [Feb 2019 - Feb 2020]: Through Feb - Jul 2019 I made the first two certificates in freeCodeCamp. Life got a bit rough with my postdoctoral research and I stalled in progress. When finnaly I could get back, I found that I was lacking the deep understating I was looking for. So, I found The Odin Project and slowly started to go through Web Development 101.
+
+* [May 2020]: Locked down in my house. With no postdoctoral research possible and all my work in the University going online, I spend most of my time in front of the computer screen. Good time to restart my web development journey. I write my own curriculum mixing The Odin Project's with freeCodecamp's.
+
+* [June 2020]: And here we go again. I am reviewing all my knowledge in **HTML5** and **CSS3**. I will review the Responsive Web Desing projects from freeCodeCamp and take the whole course of HTML and CSS in The Odin Project.
+
 # Projects
 
 ## The Odin Project
