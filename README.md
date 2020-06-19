@@ -11,7 +11,7 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [May 2020]: Locked down in my house. With no postdoctoral research possible and all my work in the University going online, I spend most of my time in front of the computer screen. Good time to restart my web development journey. I write my own curriculum mixing The Odin Project's with freeCodecamp's.
 
-* [June 2020]: And here we go again. I am reviewing all my knowledge in **HTML5** and **CSS3**. I will review the Responsive Web Desing projects from freeCodeCamp and take the whole course of HTML and CSS in The Odin Project.
+* [June 2020]: And here we go again. I am reviewing all my knowledge in **HTML5** and **CSS3**. I will review the Responsive Web Design projects from freeCodeCamp and take the whole course of HTML and CSS in The Odin Project.
 
 # Projects
 
