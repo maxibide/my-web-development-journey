@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(6, 95, 212);
+}
+
+.apps {
+  width: 22px;
+  height: 22px;
+}
+
+.user-icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+}
+
+/* Webpage layout */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+main {
+  grid-column: 1 / 2;
+}
+
+aside {
+  grid-column: 2 / 3;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  border-color: #f1f1f1;
+  color: #f1f1f1;
+  background-color: #f1f1f1;
+}
+
+/* Navigation header */
+
+.navigation-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  margin: 5px;
+  background-color: #ffffff;
+}
+
+.navigation-header li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.navigation-header-center {
+  width: 50%;
+  margin: auto;
+}
+
+.navigation-header-left,
+.navigation-header-right {
+  display: flex;
+  align-items: center;
+  padding:0px;
+}
+
+.navigation-header input {
+  width: 50%;
+}
+
+/* Search bar */
+.navigation-header input[type="text"] {
+  width: 70%;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px 0 0 2px;
+  padding: 5px 5px 5px 10px;
+}
+
+.navigation-header input[type="text"]:focus {
+  outline: 1px solid #3f51b5;
+  box-shadow: inset 0 1px 2px #eee;
+}
+
+.navigation-header button {
+  border: none;
+  line-height: 16px;
+  background-color: #f8f8f8;
+  width: 60px;
+  padding: 6px;
+  border: 1px solid rgb(204, 204, 204);
+  border-left: 0;
+}
+
+.navigation-header button:hover {
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+
+/* Responsive Youtube video iframe */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video h1 {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(3, 3, 3);
+  font-weight: 400;
+}
+
+.video p {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.video ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: -35px 0px 10px 0px;
+}
+
+.video li,
+.comments li,
+.automatic {
+  display: inline;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgb(96, 96, 96);
+  padding: 10px;
+}
+
+.video li,
+.comments li {
+  cursor: pointer;
+}
+
+.suscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uploader {
+  display: flex;
+}
+
+.uploader-icon {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.user-name,
+.aside-title {
+  display: inline;
+  cursor: pointer;
+  color: rgb(3, 3, 3);
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 3px;
+  margin-top: 20px;
+}
+
+.suscribers,
+.date,
+.aside-user {
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 3px;
+}
+
+.date:hover {
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+}
+
+.suscribe button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #cc0000;
+  margin: 0px 4px;
+  text-transform: uppercase;
+  border: none;
+  width: 117px;
+  height: 36px;
+  font-weight: bold;
+}
+
+.suscribe button:hover,
+.sort-comments:hover {
+  cursor: pointer;
+}
+
+.description p {
+  font-size: 14px;
+  margin: 14px 56px;
+}
+
+.comments h2 {
+  font-size: 16px;
+  color: #030303;
+  font-weight: normal;
+  display: inline;
+}
+
+.sort-comments {
+  display: inline;
+  margin-left: 30px;
+}
+
+.sort-comments p {
+  font-size: 14px;
+  display: inline;
+  margin-left: 10px;
+  color: #606060;
+}
+
+.sort-comments i {
+  color: #606060;
+}
+
+.user-date p {
+  display: inline;
+}
+
+.add-comments {
+  display: flex;
+  margin: 20px 0px 60px 0px;
+}
+
+.add-comments input[type="text"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  margin-left: 5px;
+  padding: 0px 0px 8px 5px;
+  background-color: transparent;
+}
+
+.add-comments input[type="text"]:focus {
+  outline: none;
+  border-bottom: 2px solid;
+  margin-bottom: -1px;
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  font-size: 14px;
+}
+
+.comment ul {
+  padding-left: 0px;
+  margin-left: -10px;
+}
+
+.user-comment {
+  margin: 0px 10px 10px 10px;
+}
+
+.date {
+  margin-left: 3px;
+}
+
+.fa-chevron-down {
+  margin-right: 10px;
+}
+
+.next {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.aside-video {
+  display: flex;
+}
+
+.aside-video ul {
+  padding: 0px;
+  margin-left: 5px;
+}
