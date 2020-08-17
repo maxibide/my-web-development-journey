@@ -1,3 +1,5 @@
+*Leé esta página en* [español](https://github.com/maxibide/my-web-development-journey/blob/master/README.es.md/).
+
 # Background
 I am a Pharmacist and I have a PhD in food science and technology. I've been always interested in technology and computer programming in particular. Through the years I read and played with code a bit, but it was in 2019 that I decided that I wanted to learn programming in a more systematic way. I took some time to research and found that Full Stack Web Development was one of the most active areas in computer programming and the one that had the best resources to study from.
 
