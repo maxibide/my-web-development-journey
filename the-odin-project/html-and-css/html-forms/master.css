@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+body {
+  background-color: #eceef1;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: right;
+  font-size: 12px;
+  color: #505050;
+  padding: 10px 30px;
+}
+
+header button {
+  color: #ffffff;
+  background-color: #0077c5;
+  font-size: 13.5px;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  height: 34px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.block {
+  display: inline-block;
+}
+
+.block p {
+  margin: 5px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul,
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+nav li,
+footer li {
+  display: inline;
+}
+
+.intuit-logo {
+  padding: 10px 0;
+}
+
+main {
+  text-align: center;
+  background-color: #ffffff;
+  display: block;
+  width: 380px;
+  padding: 30px;
+  margin: auto;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #c7c7c7;
+  line-height: 1.5;
+}
+
+main header {
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+
+main h1 {
+  font-size: 24px;
+  color: #4c4c4c;
+  margin: 0;
+  font-weight: normal;
+}
+
+main p {
+  font-size: 14px;
+  margin: 14px 0 0 0;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+input {
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding: 0 6px 0 8px;
+  color: #000000;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border: 1px solid #c1c5c8;
+}
+
+input:focus {
+  border: 1px solid #52a8ec;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: #404040;
+  padding-bottom: 6px;
+  line-height: 25px;
+}
+
+footer {
+  text-align: center;
+}
+
+.alert {
+  min-height: 20px;
+  margin: 5px 0;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+
+.notice {
+  text-align: left;
+  color: #444444;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+form button {
+  color: #ffffff;
+  background-color: #0077c5;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 6px 12px;
+  line-height: 32px;
+  width: 320px;
+  min-width: 160px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.privacy-statement {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #757575;
+}
+
+main footer {
+  background-color: #eceef1;
+  padding: 16px;
+  font-size: 10px;
+  color: #757575;
+  margin: 15px -30px -30px -30px;
+}
+
+footer {
+  color: #505050;
+  margin: 0 80px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer ul {
+  padding: 5px 0 0 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+footer li {
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+footer li a {
+  color: #505050;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+.privacy-settings {
+  color: #ffffff;
+  vertical-align: middle;
+  font-size: 14px;
+  background-color: #6b6c72;
+  padding: 10px 12px;
+  float:left;
+  position:fixed;
+  bottom:0px;
+  right:5%;
+  line-height:1.5;
+  border-radius: 3px;
+  cursor: pointer;
+}

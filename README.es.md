@@ -15,7 +15,9 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [Junio ​​de 2020]: Y aquí vamos de nuevo. Estoy revisando todos mis conocimientos en **HTML5** y **CSS3**. Revisaré los proyectos de *Responsive Web Design* de freeCodeCamp y tomaré el curso completo de HTML y CSS en The Odin Project.
 
-* [22 de julio de 2020]: Bueno, mes loco. Todavía encerrado en mi casa y con demasiado trabajo por hacer. Sin embargo, ma las ingenié para avanzar en el curso de HTML y CSS del Proyecto Odin y hoy terminé el Proyecto de incrustación de imágenes y video. Fue un proyecto divertido de hacer y reforzó completamente mi idea de que *hacer* es *aprender*. Espero poder terminar este curso el próximo mes.
+* [22 de julio de 2020]: Bueno, mes loco. Todavía encerrado en mi casa y con demasiado trabajo por hacer. Sin embargo, me las ingenié para avanzar en el curso de HTML y CSS del Proyecto Odin y hoy terminé el Proyecto de incrustación de imágenes y video. Fue un proyecto divertido de hacer y reforzó completamente mi idea de que *hacer* es *aprender*. Espero poder terminar este curso el próximo mes.
+
+* [04 de septiembre de 2020]: Sigo avanzando más lentamente de lo que esperaba (voy a ser Papá nuevamente este mes y los preparativos llevan mucho tiempo), pero lo importante es que sigo adelante. Terminé el proyecto de formularios HTML. Me sentí muy cómodo al hacerlo, se nota que voy ganando práctica y sobre todo se nota en el tiempo que me llevó hacerlo, un tercio que el promedio de los proyectos anteriores. 
 
 # Proyectos
 
@@ -23,18 +25,19 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 ### Web Development 101
 
-* [Página de resultados de Google] (https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
+* [Página de resultados de Google](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 
 ### HTML y CSS
 
-* [Proyecto de incrustación de imágenes y video] (https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
+* [Proyecto de incrustación de imágenes y video](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
+* [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/) 
 
 ## freeCodeCamp
 
 ### Responsive Web Design
 
-* [Página de tributo] (https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/tribute-page/)
-* [Formulario de encuesta] (https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/survey-form/)
-* [Página de destino del producto] (https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/product-landing-page/)
-* [Página de documentación técnica] (https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/technical-documentation-page/)
-* [Página web de portafolio personal] (https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/personal-portfolio-webpage/)
+* [Página de tributo](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/tribute-page/)
+* [Formulario de encuesta](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/survey-form/)
+* [Página de destino del producto](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/product-landing-page/)
+* [Página de documentación técnica](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/technical-documentation-page/)
+* [Página web de portafolio personal](https://maxibide.github.io/my-web-development-journey/free-code-camp/responsive-web-design/personal-portfolio-webpage/)

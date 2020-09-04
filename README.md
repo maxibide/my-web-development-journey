@@ -17,6 +17,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [July 22, 2020]: Well, crazy month. Still locked down in my home and way too much work to do. However, I still managed to advance through the Odin Project's HTML and CSS course and today I finished the Embedding Images and Video Project. It was a fun project to do, and it completely reinforced my idea that doing is learning. I hope I can finish this course by next month.
 
+* [04 September, 2020]: I keep moving slower than I expected (I am going to be a dad again this month and the preparations take a long time), but the important thing is that I keep going. I finished the HTML forms project. I felt very comfortable doing it, it shows that I am gaining practice and above all it is noticeable in the time it took me to do it, a third than the average time of previous projects.
+
 # Projects
 
 ## The Odin Project
@@ -28,6 +30,7 @@ So, here I will document the progress and all the projects I make in this journe
 ### HTML and CSS
 
 * [Embedding Images and Video Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
+* [HTML Forms Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/) 
 
 ## freeCodeCamp
 
