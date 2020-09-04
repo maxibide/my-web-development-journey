@@ -1,1 +1,3 @@
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css). The project consists in cloning the look and fell of [Google's result page](https://www.google.com/search?sxsrf=ALeKk03IVVXDDmQ7fYIRGC8oA5ZNtzb6UA%3A1599242934938&source=hp&ei=toJSX9rYNt7A5OUPhc2aiAo&q=the+odin+project&oq=the+odin+project&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIIADICCAAyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywE6BAgjECc6CAgAELEDEIMBOgUIABCxAzoICC4QsQMQgwE6BQguELEDOgIILjoECC4QJzoJCC4QJxATEJMCOgQILhAKOgQIABAKOgcIABAKEMsBOgQIABANUM0GWLIlYN4oaARwAHgAgAGDAYgBiw-SAQQxMy43mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjai62YjNDrAhVeILkGHYWmBqEQ4dUDCAc&uact=5).
+
+[View result in browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
