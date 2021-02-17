@@ -33,7 +33,7 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [Embedding Images and Video Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [HTML Forms Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
-* [New York Times Article Page Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/)
+* [New York Times Article Page Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 
 ## freeCodeCamp
 

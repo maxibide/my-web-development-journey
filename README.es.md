@@ -33,7 +33,7 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [Proyecto de incrustación de imágenes y video](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
-* [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/)
+* [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 
 ## freeCodeCamp
 

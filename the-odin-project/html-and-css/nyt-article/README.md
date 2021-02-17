@@ -4,7 +4,7 @@ This is a replica of New York Times article "[Space Ripples Reveal Big Bang's Sm
 
 ## Live Demo
 
-You can check the [live demo](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/).
+You can check the [live demo](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html).
 
 ## Reflection
 
