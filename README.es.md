@@ -3,7 +3,7 @@
 # Antecedentes
 Soy farmacéutico y tengo un doctorado en ciencia y tecnología de los alimentos. Siempre me ha interesado la tecnología y la programación informática en particular. A lo largo de los años leí y jugué un poco con código, pero fue en 2019 cuando decidí que quería aprender a programar de una manera más sistemática. Me tomé un tiempo para investigar y descubrí que el desarrollo web *Full Stack* era una de las áreas más activas en programación y la que tenía los mejores recursos para estudiar.
 
-Primero, comencé con el plan de estudios de [freeCodeCamp] (www.freecodecamp.org) y completé los dos primeros certificados. Sin embargo, sentí que me faltaban algunos conocimientos teóricos. Fue entonces cuando encontré [The Odin Project] (www.theodinproject.com), otro curso de desarrollo web gratuito en línea que tenía enlaces a material de lectura y videos más organizados. Descubrí que los dos cursos se complementan muy bien, uno con un enfoque más práctico y el otro profundizando en los conceptos. Por eso decidí tomar ambos al mismo tiempo.
+Primero, comencé con el plan de estudios de [freeCodeCamp](www.freecodecamp.org) y completé los dos primeros certificados. Sin embargo, sentí que me faltaban algunos conocimientos teóricos. Fue entonces cuando encontré [The Odin Project](www.theodinproject.com), otro curso de desarrollo web gratuito en línea que tenía enlaces a material de lectura y videos más organizados. Descubrí que los dos cursos se complementan muy bien, uno con un enfoque más práctico y el otro profundizando en los conceptos. Por eso decidí tomar ambos al mismo tiempo.
 
 Entonces, aquí documentaré el progreso y todos los proyectos que hago en este viaje.
 
@@ -17,7 +17,9 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [22 de julio de 2020]: Bueno, mes loco. Todavía encerrado en mi casa y con demasiado trabajo por hacer. Sin embargo, me las ingenié para avanzar en el curso de HTML y CSS del Proyecto Odin y hoy terminé el Proyecto de incrustación de imágenes y video. Fue un proyecto divertido de hacer y reforzó completamente mi idea de que *hacer* es *aprender*. Espero poder terminar este curso el próximo mes.
 
-* [04 de septiembre de 2020]: Sigo avanzando más lentamente de lo que esperaba (voy a ser Papá nuevamente este mes y los preparativos llevan mucho tiempo), pero lo importante es que sigo adelante. Terminé el proyecto de formularios HTML. Me sentí muy cómodo al hacerlo, se nota que voy ganando práctica y sobre todo se nota en el tiempo que me llevó hacerlo, un tercio que el promedio de los proyectos anteriores. 
+* [04 de septiembre de 2020]: Sigo avanzando más lentamente de lo que esperaba (voy a ser Papá nuevamente este mes y los preparativos llevan mucho tiempo), pero lo importante es que sigo adelante. Terminé el proyecto de formularios HTML. Me sentí muy cómodo al hacerlo, se nota que voy ganando práctica y sobre todo se nota en el tiempo que me llevó hacerlo, un tercio que el promedio de los proyectos anteriores.
+
+* [17 de Febrero de 2021]: Estoy de regreso. Después del nacimiento de mi hija la casa estuvo un poco caótica, pero finalmente nos estamos adaptando y estoy encontrando nuevamente espacios para continuar con el estudio. Recién terminé el proyecto del artículo del *New York Times*. Me ayudó a sentirme mucho más cómodo con CSS Grid y Flexbox. Fue una experiencia interesante y además tuvo el plus que me encanta la cosmología, por lo que al principio me tomé el tiempo de leer todo el artículo. Ahora tengo una idea, ¿es nuestro universo un *flex-item* en un multiverso *contenedor flex*? :stuck_out_tongue_closed_eyes:
 
 # Proyectos
 
@@ -30,7 +32,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 ### HTML y CSS
 
 * [Proyecto de incrustación de imágenes y video](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
-* [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/) 
+* [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
+* [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/)
 
 ## freeCodeCamp
 

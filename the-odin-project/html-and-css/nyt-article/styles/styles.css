@@ -1,0 +1,548 @@
+@import "fonts.css";
+
+/* Header layout. The header element is in fixed position at the top
+ of the page. Inside there is a flexbox container with three flex-items
+ that contain the left menu, the title in the center, and the right
+ buttons*/
+
+header {
+  font-family: "NYTFranklin";
+  background-color: white;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  letter-spacing: 0.05em;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 4px 15px 2px;
+}
+
+.header-item {
+  display: inline;
+  margin: 5px;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.icon:hover {
+  background-color: #f6f6f6;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14.25px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+button {
+  color: #ffffff;
+  background: #567b95;
+  padding: 11px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px solid #326891;
+  cursor: pointer;
+}
+
+.nyttitle {
+  width: 195px;
+  height: 26.5px;
+}
+
+/*Article layout and styling*/
+
+article h1 {
+  font-family: "NYTCheltenham";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  width: 600px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.social {
+  width: 600px;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+.social li {
+  display: inline-flex;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social li:hover {
+  background-color: white;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.cover {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article .picture {
+  max-width: 720px;
+  margin: 40px auto;
+}
+
+article figcaption {
+  font-family: "NYTImperial";
+  color: #666666;
+  font-size: 15px;
+}
+
+article .credit {
+  font-size: 13px;
+  color: #888888;
+  margin-left: 5px;
+}
+
+article a {
+  color: #326891;
+}
+
+.cover figcaption {
+  max-width: 900px;
+  margin: 5px 0;
+}
+
+.author {
+  font-family: "NYTFranklin";
+  font-size: 15px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.author a {
+  text-decoration: underline;
+  text-decoration-color: #888888;
+  color: #333333;
+}
+
+.author a:hover {
+  text-decoration: none;
+}
+
+.pubdate {
+  font-family: "NYTFranklin";
+  font-size: 13px;
+  color: #333333;
+  margin: 15px auto;
+}
+
+article p {
+  font-family: "NYTImperial";
+  font-size: 20px;
+  color: #333333;
+  line-height: 30px;
+  width: 600px;
+  margin: 20px auto;
+}
+
+article h2,
+article h3 {
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+}
+
+/* Infographic layout. The infographic consist in a single image with white
+spaces to place boxes with text. The boxes and the image are placed in a 
+4 x 4 grid. While the image occupies all the cells, the boxes are placed
+in their respective blank spaces, using the grid layout.*/
+
+.infographic {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.infographic h3 {
+  color: #000000;
+  width: 945px;
+  font-family: "NYTCheltenham";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.infographic p {
+  font-family: "NYTImperial";
+  color: #666666;
+  font-size: 14px;
+  width: 945px;
+  margin: 5px auto;
+  line-height: 18px;
+}
+
+.infographic .created-by {
+  color: #333333;
+  margin-top: 40px;
+}
+
+.infographic .created-by:before {
+  display: block;
+  padding-bottom: 20px;
+  content: " ";
+  width: 60px;
+  border-top: 1px solid black;
+}
+
+.item {
+  font-family: "NYTFranklin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  margin: 5px;
+}
+
+.item b {
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 11px;
+}
+
+.fig-container {
+  width: 945px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 144px);
+}
+
+.fig-container img {
+  grid-column: 1 / 5;
+  grid-row: 1 / 3;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.item4 {
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.item6 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.item7 {
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.item8 {
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.video {
+  width: 600px;
+  margin: 40px auto;
+}
+
+article .foot {
+  font-family: "NYTFranklin";
+  font-size: 12px;
+  color: #666666;
+  line-height: 18px;
+}
+
+article .foot a {
+  color: #666666;
+}
+
+.social-bar-down {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.comment-button button {
+  width: 300px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+.more-title {
+  font-family: "NYTFranklin";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Layout of the bottom "more articles section". The three general sections 
+are placed in a 2 x 2 grid, while the individual articles are laid out in
+a flexbox container */
+
+.more-title a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.more-title a:hover {
+  text-decoration: underline;
+}
+
+.more .article-preview {
+  width: 272px;
+}
+
+.article-preview img {
+  width: 272px;
+}
+
+.article-preview figure {
+  width: 272px;
+  margin: 0;
+  padding: 0;
+}
+
+.more figcaption {
+  font-family: "NYTCheltenham";
+  font-size: 10px;
+  color: #999999;
+  text-align: right;
+  width: 272px;
+}
+
+.more .preview-title,
+.sidebar a {
+  font-family: "NYTCheltenham";
+  font-size: 18px;
+  font-weight: 500;
+  color: #121212;
+  margin-top: 10px;
+}
+
+.more .preview-date {
+  font-family: "NYTFranklin";
+  font-size: 10px;
+  color: #6d6464;
+  margin-top: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  list-style: none;
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.more {
+  width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.more > * {
+  border-top: 1px solid black;
+  margin: 10px;
+}
+
+.more-science,
+.editor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.sidebar {
+  grid-column-start: 2;
+  grid-row: span 2;
+}
+
+.article-preview {
+  margin: 10px;
+}
+
+.more-title {
+  flex-basis: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.more figure,
+.more .preview-title {
+  cursor: pointer;
+}
+
+/* Navigation */
+
+nav {
+  padding: 0 40px 9px;
+  margin: 0 11px;
+  font-family: 'NYTFranklin';
+  font-size: 14px;
+  width: 1200px;
+  margin: auto;
+}
+
+.nav-top {
+  border-top: 5px double #cccccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.nav-top a{
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #567b95;
+}
+
+.nav-container{
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 1px solid #cccccc;
+  margin-top: 10px;
+}
+
+nav li {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+nav li:hover{
+  text-decoration: underline;
+}
+
+nav .menu-title:hover{
+  text-decoration: none;
+  cursor: inherit;
+}
+
+nav ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+nav ul:last-of-type{
+  padding-left: 15px;
+  border-left: 1px solid #cccccc;
+}
+
+.menu-title {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.featured-sub{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.last-feat {
+  margin-bottom: 20px;
+}
+
+.last-other {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+
+.other, .extra{
+  font-size: 11px;
+}
+
+footer {
+  width: 1200px;
+  margin: 10px auto;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  font-family: 'NYTFranklin';
+  font-size: 11px;
+  color: #666666;
+  cursor: pointer;
+  margin: 0;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}

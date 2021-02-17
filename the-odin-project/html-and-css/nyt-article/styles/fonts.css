@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "NYTFranklinCW";
+    src: url("../fonts/NYTFranklinCW-Medium.woff2") format("woff2"),
+      url("../fonts/NYTFranklinCW-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-LightItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-MediumItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-SemiboldItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-SemiboldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-BoldItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-ExtraBoldItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-ExtraBoldItalic.woff") format("woff");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin Headline";
+    src: url("../fonts/NYTFranklin-HeadlineItalic.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-HeadlineItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-Light.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-Semibold.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-Bold.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-Medium.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklinRE";
+    src: url("../fonts/NYTFranklinRE-Bold.woff2") format("woff2"),
+      url("../fonts/NYTFranklinRE-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin";
+    src: url("../fonts/NYTFranklin-ExtraBold.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklin Headline";
+    src: url("../fonts/NYTFranklin-Headline.woff2") format("woff2"),
+      url("../fonts/NYTFranklin-Headline.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTFranklinRE";
+    src: url("../fonts/NYTFranklinRE-Medium.woff2") format("woff2"),
+      url("../fonts/NYTFranklinRE-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-Italic.woff2") format("woff2"),
+      url("../fonts/NYTImperial-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-BoldItalic.woff2") format("woff2"),
+      url("../fonts/NYTImperial-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-SemiboldItalic.woff2") format("woff2"),
+      url("../fonts/NYTImperial-SemiboldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-Regular.woff2") format("woff2"),
+      url("../fonts/NYTImperial-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-Semibold.woff2") format("woff2"),
+      url("../fonts/NYTImperial-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "NYTImperial";
+    src: url("../fonts/NYTImperial-Bold.woff2") format("woff2"),
+      url("../fonts/NYTImperial-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'NYTCheltenham';
+    src: url('NYTCheltenham-BoldItalic.woff2') format('woff2'),
+        url('NYTCheltenham-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'NYTCheltenham';
+  src: url('NYTCheltenham-Bold.woff2') format('woff2'),
+      url('NYTCheltenham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
