@@ -21,6 +21,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [17 de Febrero de 2021]: Estoy de regreso. Después del nacimiento de mi hija la casa estuvo un poco caótica, pero finalmente nos estamos adaptando y estoy encontrando nuevamente espacios para continuar con el estudio. Recién terminé el proyecto del artículo del *New York Times*. Me ayudó a sentirme mucho más cómodo con CSS Grid y Flexbox. Fue una experiencia interesante y además tuvo el plus que me encanta la cosmología, por lo que al principio me tomé el tiempo de leer todo el artículo. Ahora tengo una idea, ¿es nuestro universo un *flex-item* en un multiverso *contenedor flex*? :stuck_out_tongue_closed_eyes:
 
+* [22 de Febrero de 2021]: Proyecto de página de inicio de Apple completado. Pensé que iba a ser un proyecto simple y corto, pero, oh, esa barra de navegación fue complicada de hacer :sweat_smile:
+
 # Proyectos
 
 ## El proyecto Odin
@@ -34,6 +36,7 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 * [Proyecto de incrustación de imágenes y video](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
+* [Página de inicio de Apple](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
 
 ## freeCodeCamp
 

@@ -19,7 +19,9 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [04 September, 2020]: I keep moving slower than I expected (I am going to be a dad again this month and the preparations take a long time), but the important thing is that I keep going. I finished the HTML forms project. I felt very comfortable doing it, it shows that I am gaining practice and above all it is noticeable in the time it took me to do it, a third than the average time of previous projects.
 
-* [17 Frebuary, 2021]: I'm back. After the birth of my daughter the house was a bit chaotic, but we are finally adjusting and I am again finding space to continue studying. I just finished the *New York Times article Project*. It helped me get a lot more comfortable with CSS Grid and Flexbox. It was an interesting experience and it also had the plus that I love cosmology, so at first I took the time to read the full article. Now I have an idea, is our universe a *flex-item* in a multiverse *flex container*? :stuck_out_tongue_closed_eyes:
+* [17 February, 2021]: I'm back. After the birth of my daughter the house was a bit chaotic, but we are finally adjusting and I am again finding space to continue studying. I just finished the *New York Times article Project*. It helped me get a lot more comfortable with CSS Grid and Flexbox. It was an interesting experience and it also had the plus that I love cosmology, so at first I took the time to read the full article. Now I have an idea, is our universe a *flex-item* in a multiverse *flex container*? :stuck_out_tongue_closed_eyes:
+
+* [22 February, 2021]: Apple Homepage project done. I thought that it was going to be a simple and short project, but, oh, that navbar was tricky to do :sweat_smile:
 
 # Projects
 
@@ -34,6 +36,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [Embedding Images and Video Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [HTML Forms Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [New York Times Article Page Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
+* [Apple Homepage](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
 
 ## freeCodeCamp
 
