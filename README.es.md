@@ -23,6 +23,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [22 de Febrero de 2021]: Proyecto de página de inicio de Apple completado. Pensé que iba a ser un proyecto simple y corto, pero, oh, esa barra de navegación fue complicada de hacer :sweat_smile:
 
+* [22 de Marzo de 2021]: Proyecto de *desmontaje de un diseño* completado. De nuevo, otro proyecto que a primera vista parecía simple y *fácil*. Pero, por supuesto, *simple* y *fácil* son dos cosas muy diferentes. Lección aprendida. No soy una persona muy visual, por lo que esto tomó tiempo, pero ahora tengo una mejor idea de lo que se necesita para hacer una buena jerarquía visual y, a su vez, una mejor UX.
+
 # Proyectos
 
 ## El proyecto Odin
@@ -37,6 +39,7 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 * [Proyecto de formularios HTML](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 * [Página de inicio de Apple](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
+* [Desmontaje de un diseño](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
 
 ## freeCodeCamp
 

@@ -23,6 +23,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [22 February, 2021]: Apple Homepage project done. I thought that it was going to be a simple and short project, but, oh, that navbar was tricky to do :sweat_smile:
 
+* [15 March, 2021]: Design Teardown project done. Again, another project that at first glance seemed simple and *easy*. But of course, *simple* and *easy* are two very different things. Lesson learnt. I am not a very visual person, so this one took time, but now I have a better insight on what it takes to make a good visual hierarchy, and in turn, a better UX.
+
 # Projects
 
 ## The Odin Project
@@ -37,6 +39,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [HTML Forms Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [New York Times Article Page Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 * [Apple Homepage](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
+* [Design Teardown](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
 
 ## freeCodeCamp
 

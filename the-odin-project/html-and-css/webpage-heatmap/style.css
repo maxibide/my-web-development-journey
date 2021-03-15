@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+:root {
+  --color1: #686868;
+  --color2: #909090;
+  --color3: #d0d0d0;
+}
+
+body {
+  color: white;
+  font-family: "Akaya Kanadaka", cursive;
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0;
+  background-color: var(--color3);
+  font-size: 24px;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px 20px 0 20px;
+}
+
+nav ul {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  margin: 10px;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+nav li:hover {
+  border-radius: 8px;
+  background-color: var(--color2);
+}
+
+.btn-highlight {
+  background-color: var(--color2);
+  border-radius: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  height: 26px;
+  width: 275px;
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 24px;
+}
+
+.wrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.author-pic {
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-10deg);
+  background-color: var(--color1);
+}
+
+.past-article .author-pic {
+  height: 100px;
+  width: 100px;
+}
+
+.main-article,
+.past-article {
+  padding: 10px;
+  margin: 10px 80px 10px 10px;
+}
+
+.main-article header {
+  background-color: var(--color2);
+}
+
+.main-article .content {
+  background-color: var(--color3);
+  margin: 0;
+  padding: 20px;
+}
+
+article header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-content {
+  margin-left: 20px;
+}
+
+.aside-picture {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -90px;
+  margin: auto;
+  background-color: var(--color1);
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+article h1 {
+  font-size: 48px;
+}
+
+aside {
+  margin: 80px 60px 60px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.guides aside {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  flex:1;
+  flex-basis:40%;
+  background-color: var(--color2);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 125px 20px 20px 20px;
+  background-color: var(--color2);
+}
+
+.guides .newsletter {
+  padding: 20px;
+}
+
+.newsletter h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.newsletter .btn {
+  background-color: var(--color1);
+  font-size: 32px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.past-article header {
+  background-color: var(--color2);
+}
+
+.last-article {
+  background-color: var(--color3);
+  flex-basis: calc(33% - 60px);
+  padding: 20px 20px 80px 20px;
+}
+
+.last-article:hover {
+  background-color: var(--color2);
+}
+
+.latest-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.merchandising {
+  margin: 10px;
+  height: 700px;
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merchandising h1 {
+  font-size: 60px;
+}
+
+.join {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+
+.advertising {
+  background-color: var(--color1);
+  padding: 150px;
+  font-size: 30px;
+}
+
+.guide {
+  background-color: var(--color2);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  flex:1;
+  flex-basis:40%;
+}
+
+.guides {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: var(--color2);
+  text-align: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h1{
+  font-size: 60px;
+}
