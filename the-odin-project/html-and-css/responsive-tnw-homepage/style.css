@@ -1,0 +1,837 @@
+@import url(//db.onlinewebfonts.com/c/4629c048a3822d4fed2b0472eb3e708f?family=ARS+Maquette+Pro+Light);
+@import url(//db.onlinewebfonts.com/c/4712603f54ff886c6ba46185644675ba?family=ShentoxW01-Light);
+@import url(//db.onlinewebfonts.com/c/14029f22bc836ea86b7702c035f31699?family=Avalon);
+
+/* Main webpage layout */
+body {
+  margin: 0;
+  font-family: "ARS Maquette Pro Light", Arial, Helvetica, sans-serif;
+}
+
+section {
+  max-width: 1192px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 56px;
+}
+
+.webpage-header {
+  position: sticky;
+  background-color: white;
+  top: 0;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+article {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: "Avalon", sans-serif;
+  font-weight: bold;
+}
+
+.opaque {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25) url(images/image-gradient.png) no-repeat;
+  background-size: cover;
+  transition: background-color 0.4s ease;
+}
+
+.cover-gradient {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent url(images/cover-gradient.webp) no-repeat;
+  background-size: cover;
+  mix-blend-mode: lighten;
+  transition: background-color 0.4s ease;
+}
+
+.cover-story .opaque:hover {
+  background: rgba(0, 0, 0, 0.1) url(images/image-gradient.png) repeat;
+}
+
+.cover-gradient:hover {
+  background: rgba(0, 0, 0, 0.5) url(images/cover-gradient.webp) no-repeat;
+  background-size: cover;
+}
+
+/* Header layout */
+
+.webpage-header {
+  z-index: 1000;
+}
+
+.webpage-header ul {
+  margin: 5px 10px;
+}
+
+.logo {
+  display: none;
+  background-image: url(images/logo-large.png);
+}
+
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131313;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+}
+
+.nav-top a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.nav-top a:hover {
+  color: #fff;
+}
+
+.nav-top li:first-child {
+  margin-left: 18px;
+}
+
+.nav-top li {
+  margin-left: 12px;
+}
+
+.nav {
+  line-height: 32px;
+  max-height: 32px;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 3px;
+  font-family: "ShentoxW01-Light", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-bottom li {
+  padding: 18px 12px 0 12px;
+}
+
+.nav-bottom li:first-child {
+  padding: 18px 12px 0 16px;
+}
+
+.nav-bottom a {
+  color: #aaa;
+  font-weight: bold;
+}
+
+.nav-bottom a:hover {
+  color: #000;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1;
+  background-color: #000;
+  text-align: left;
+  top: 11px;
+  left: -24px;
+  width: 220px;
+  display: none;
+}
+
+.dropdown-content li {
+  display: block;
+  width: 220px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-top .nav:first-child > li:first-child a {
+  color: #fff;
+}
+
+.event {
+  background-color: #ffdd23;
+  padding: 5px;
+}
+
+.event a {
+  margin: 0px 20px;
+  font-size: 13px;
+  color: #000;
+}
+
+.menu-btn {
+  display: inline-block;
+  padding: 15px;
+  color: #d3d3d3;
+  border-left: 1px solid #ececec;
+}
+
+.bar {
+  display: none;
+}
+
+.bar a {
+  color: #ff4422;
+}
+/* ------------ */
+
+/* Cover section */
+
+.front-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 8px;
+  margin: 2px 8px 56px 8px;
+  max-width: 100%;
+  padding: 0 5px;
+}
+.cover-story {
+  position: relative;
+  color: white;
+}
+
+.front-grid article:first-child {
+  grid-row: span 2;
+  height: 60vh;
+}
+
+.cover-header {
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 4px;
+  margin: 10px 20px 20px 20px;
+}
+
+.cover-logo {
+  color: #fff;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  z-index: 15;
+}
+
+.cover-logo img {
+  height: 96px;
+}
+
+.cover-date {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  color: #fff;
+  z-index: 15;
+  font-size: 14px;
+}
+
+.cover-story h2 {
+  margin: 20px 0;
+}
+
+.cover-story .cover-title {
+  font-size: 56px;
+}
+
+.cover-story a {
+  color: rgb(255, 255, 255);
+}
+
+.cover-section,
+.popular-subtitle {
+  font-family: "ShentoxW01-Light", sans-serif;
+  text-transform: uppercase;
+}
+
+.cover-byline {
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: normal;
+}
+
+.cover-byline li {
+  margin-right: 10px;
+}
+
+.cover-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.cover-byline a:hover {
+  color: #fff;
+}
+/* ------------- */
+
+.wrapper-small-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.wrapper-large-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.section-heading {
+  margin-bottom: 24px;
+  margin-left: 10px;
+}
+
+.section-heading a {
+  color: #f42;
+}
+
+.section-heading a::after {
+  content: " >";
+}
+
+.section-heading a:hover {
+  color: #000;
+}
+
+.card {
+  padding: 12px;
+}
+
+.story-title a {
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.story-title a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.story-byline {
+  padding-top: 4px;
+}
+
+.story-byline li {
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.story-byline a {
+  color: #aaa;
+}
+
+.story-byline a:hover {
+  color: black;
+}
+
+.story-byline li:first-child::after {
+  content: " \B7";
+  margin: 0 4px;
+}
+
+.investment-card {
+  margin: 12px;
+  min-height: 60px;
+  background-color: rgba(255, 68, 34, 0.03);
+}
+
+.investment-details h5 {
+  font-family: "Avalon", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.investment-details h6 {
+  font-family: "ShentoxW01-Light", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.story-image {
+  width: 100%;
+  padding-top: 50%;
+  height: 0;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.investment-card-header {
+  position: relative;
+  display: block;
+}
+
+.company-image {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.company-name {
+  background-color: #f42;
+  color: #fff;
+  padding: 10.6px 16px 10.6px 84px;
+  margin: 0;
+}
+
+.investment-details {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 10.6px 16px 10.6px 84px;
+  margin: 0;
+}
+
+.investment-card-body li {
+  display: block;
+  margin: 20px;
+}
+
+.investment-card-body {
+  font-size: 13px;
+  border-bottom: 1px solid #fdc;
+}
+
+.investment-card-body a {
+  color: rgb(85, 85, 85);
+}
+
+.investment-card i {
+  margin-right: 10px;
+}
+
+.investment-card a:hover {
+  color: black;
+}
+
+.investment-card-byline {
+  margin: 10px 20px;
+}
+
+.investment-card-byline a {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.investment-card-byline a span {
+  color: #aaa;
+}
+
+.section {
+  max-width: 100%;
+  margin: 0;
+  height: 675px;
+  padding: 12px;
+  margin: 24px 0;
+}
+
+.section .section-heading {
+  margin-left: 0;
+}
+
+.popular {
+  padding-top: 75%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.popular-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  color: white;
+  z-index: 10;
+}
+
+.popular-subtitle {
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.popular-title a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.popular-header .story-byline time,
+.popular-header .story-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.popular-header .story-byline a:hover {
+  color: #fff;
+}
+
+.popular-title a:hover {
+  text-decoration: underline;
+}
+
+.popular-title {
+  margin: 5px 0;
+}
+
+.section-latest {
+  display: flex;
+  background-color: #fff3f2;
+  padding-top: 2px;
+}
+
+.section-latest h5 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0;
+  font-family: "ShentoxW01-Light", sans-serif;
+  color: #f42;
+}
+
+.section-latest h3 a {
+  font-size: 14px;
+  color: #f42;
+}
+
+.section-latest h3 a:hover {
+  text-decoration: underline;
+}
+
+.section-latest-header {
+  flex: 1;
+  margin: 10px;
+}
+
+.section-latest-image {
+  flex: 0 0 96px;
+  background-size: cover;
+  background-position: 50%;
+  height: 96px;
+  width: 96px;
+}
+
+.section-headline {
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+.section-headline a {
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 15px;
+  display: block;
+  color: #555;
+}
+
+.section-headline a:hover {
+  color: black;
+}
+
+.section-headline a::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  height: 4px;
+  left: 0;
+  top: 28px;
+  width: 4px;
+  display: block;
+  position: absolute;
+}
+
+.section-headline h4 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+  justify-content: space-around;
+}
+
+.deal-card {
+  position: relative;
+  margin: 12px;
+}
+
+.deal-image {
+  padding-top: 74.5%;
+  background-position: 0 100%;
+  height: 0;
+  width: 100%;
+  background-size: cover;
+}
+
+.deal-discount {
+  background-image: url(images/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.deal-discount div {
+  transform: rotate(45deg);
+  position: relative;
+  left: 8px;
+  top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.deal-card h3 {
+  margin: 10px 0;
+}
+
+.deal-card h3 a {
+  font-weight: 700;
+}
+
+.deal-card h3 a:hover {
+  text-decoration: underline;
+  color: #f42;
+}
+
+.deal-price-old {
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.top-footer {
+  background-color: #131313;
+  text-align: center;
+}
+
+.top-footer a {
+  color: white;
+}
+
+.social {
+  padding: 42px 0;
+}
+
+.social a {
+  background: #333;
+  box-shadow: inset 0 0 0 2px #333;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 5px;
+}
+
+.social a:hover {
+  background: black;
+}
+
+.menu {
+  padding: 5px 0 30px 0;
+}
+
+.menu a {
+  margin: 5px;
+  font-family: "ShentoxW01-Light", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.bottom-footer {
+  background-color: #000000;
+  color: #aaa;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 13px;
+  border-bottom: 1px solid white;
+}
+
+.footer-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Change TNW logo */
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    flex: 1;
+  }
+
+  .logo {
+    display: block;
+    width: 109px;
+    height: 80px;
+  }
+
+  .cover-logo,
+  .cover-date,
+  .cover-gradient {
+    display: none;
+  }
+  /* --------------- */
+
+  /* Font size */
+  .cover-story h2 {
+    font-size: 20px;
+  }
+
+  .cover-story .cover-title {
+    font-size: 40px;
+  }
+
+  .cover-byline {
+    font-size: 12px;
+  }
+
+  .cover-section {
+    font-size: 14px;
+  }
+
+  /* Section margin */
+  .section {
+    margin: 40px 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* Top navigation bar replaced by menu bar
+     and smaller logo */
+
+  .nav-top {
+    display: none;
+  }
+
+  .nav-bottom .nav {
+    display: none;
+  }
+
+  .bar {
+    display: inline-block;
+  }
+
+  .logo {
+    display: block;
+    height: 48px;
+    background-position: 0px -15px;
+  }
+
+  .header-wrapper {
+    justify-content: space-between;
+  }
+
+  .header-wrapper nav {
+    flex: 0;
+    display: flex;
+    min-width: fit-content;
+  }
+  /* --------------------------------------- */
+  /* Event bar larger height and text centered */
+
+  .event {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .event p {
+    margin: 0;
+  }
+
+  /* Change cover grid layout */
+
+  .front-grid {
+    grid-template-columns: 100%;
+  }
+
+  .front-grid article:first-child {
+    grid-row: span 1;
+    height: 25vh;
+  }
+
+  .cover-story {
+    height: 25vh;
+  }
+
+  .cover-story h2 {
+    margin: 5px 0;
+  }
+
+  .cover-story .cover-title {
+    font-size: 20px;
+  }
+
+  /* ------------------------ */
+
+  /* Change Latest News layout */
+  /* Change Deals layout */
+
+  .wrapper-small-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .deal-card {
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .story-image,
+  .deal-image {
+    grid-row: span 2;
+    padding-top: 75px;
+    width: 75px;
+  }
+
+  .deal-image {
+    background-position: 50%;
+  }
+
+  .deal-discount {
+    display: none;
+  }
+
+  /*Footer layout*/
+
+  footer span {
+    display: block;
+  }
+}
