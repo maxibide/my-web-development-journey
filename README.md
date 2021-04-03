@@ -25,6 +25,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [15 March, 2021]: Design Teardown project done. Again, another project that at first glance seemed simple and *easy*. But of course, *simple* and *easy* are two very different things. Lesson learnt. I am not a very visual person, so this one took time, but now I have a better insight on what it takes to make a good visual hierarchy, and in turn, a better UX.
 
+* [03 April, 2021]: Building with Responsive Design project done. The project was to clone the homepage of [The Next Web](http://thenextweb.com). I believe that was the most complex project I have done to date. I tried to clone most of the details of the original webpage and learnt quite a bit in the process. For example, I had to learn how to create dropdown menues using only CSS. And also I had to use everything I've learned before, such as positioning, FlexBox and CSS Grid. I didn't encounter major difficulties to do it, but it took me a lot of time to do it thoroughly. All in all it was a very fun project to do.
+
 # Projects
 
 ## The Odin Project
@@ -40,6 +42,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [New York Times Article Page Project](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 * [Apple Homepage](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
 * [Design Teardown](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
+* [Building with Responsive Design](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
 
 ## freeCodeCamp
 

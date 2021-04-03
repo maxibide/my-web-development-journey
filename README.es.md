@@ -25,6 +25,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [22 de Marzo de 2021]: Proyecto de *desmontaje de un diseño* completado. De nuevo, otro proyecto que a primera vista parecía simple y *fácil*. Pero, por supuesto, *simple* y *fácil* son dos cosas muy diferentes. Lección aprendida. No soy una persona muy visual, por lo que esto tomó tiempo, pero ahora tengo una mejor idea de lo que se necesita para hacer una buena jerarquía visual y, a su vez, una mejor UX.
 
+* [03 de Abril de 2021]: Proyocto de contrucción con diseño responsivo realizado. El proyecto consistía en clonar la página de inicio de [The Next Web](http://thenextweb.com). Creo que fue el proyecto más complejo que he realizado hasta la fecha. Intenté clonar la mayoría de los detalles de la página web original y aprendí bastante en el proceso. Por ejemplo, tuve que aprender a crear menús desplegables usando solo CSS. Y también tuve que usar todo lo que había aprendido antes, como posicionamiento, FlexBox y CSS Grid. No encontré mayores dificultades para hacerlo, pero me tomó mucho tiempo para hacerlo minuciosamente. En general, fue un proyecto muy divertido de hacer.
+
 # Proyectos
 
 ## El proyecto Odin
@@ -40,6 +42,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 * [Proyecto de artículo del New York Times](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/nyt-article/index.html)
 * [Página de inicio de Apple](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
 * [Desmontaje de un diseño](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
+* [Proyecto de construcción con diseño responsivo](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
+
 
 ## freeCodeCamp
 
