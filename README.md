@@ -45,6 +45,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [Apple Homepage](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/apple-homepage/index.html)
 * [Design Teardown](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
 * [Building with Responsive Design](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
+* [Using Bootstrap - Newsweek clone](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/bootstrap-newsweek/index.html)
 
 ## freeCodeCamp
 
