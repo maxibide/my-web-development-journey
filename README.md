@@ -27,6 +27,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [03 April, 2021]: Building with Responsive Design project done. The project was to clone the homepage of [The Next Web](http://thenextweb.com). I believe that was the most complex project I have done to date. I tried to clone most of the details of the original webpage and learnt quite a bit in the process. For example, I had to learn how to create dropdown menues using only CSS. And also I had to use everything I've learned before, such as positioning, FlexBox and CSS Grid. I didn't encounter major difficulties to do it, but it took me a lot of time to do it thoroughly. All in all it was a very fun project to do.
 
+* [25 May, 2021]: I finished the project of designing a webpage with Bootstrap. The project consisted of cloning the main page of [Newsweek](http://www.newsweek.com) using mainly Bootstrap. It was a project that took me a long time, especially since I had to dig a lot into this Framework and solve some thorny issues, such as the issue of the order of the sections according to screen size. But in the end the feeling is very rewarding. 
+
 # Projects
 
 ## The Odin Project
