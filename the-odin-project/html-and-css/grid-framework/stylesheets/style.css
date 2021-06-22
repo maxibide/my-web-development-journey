@@ -146,12 +146,12 @@
 
 @font-face {
   font-family: Norse;
-  src: url("../../fonts/Norse.otf") format("opentype"); }
+  src: url("../fonts/Norse.otf") format("opentype"); }
 
 @font-face {
   font-family: Norse;
   font-weight: bold;
-  src: url("../../fonts/Norsebold.otf") format("opentype"); }
+  src: url("../fonts/Norsebold.otf") format("opentype"); }
 
 *,
 *::after,
