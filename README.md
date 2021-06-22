@@ -27,7 +27,9 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [03 April, 2021]: Building with Responsive Design project done. The project was to clone the homepage of [The Next Web](http://thenextweb.com). I believe that was the most complex project I have done to date. I tried to clone most of the details of the original webpage and learnt quite a bit in the process. For example, I had to learn how to create dropdown menues using only CSS. And also I had to use everything I've learned before, such as positioning, FlexBox and CSS Grid. I didn't encounter major difficulties to do it, but it took me a lot of time to do it thoroughly. All in all it was a very fun project to do.
 
-* [25 May, 2021]: I finished the project of designing a webpage with Bootstrap. The project consisted of cloning the main page of [Newsweek](http://www.newsweek.com) using mainly Bootstrap. It was a project that took me a long time, especially since I had to dig a lot into this Framework and solve some thorny issues, such as the issue of the order of the sections according to screen size. But in the end the feeling is very rewarding. 
+* [25 May, 2021]: I finished the project of designing a webpage with Bootstrap. The project consisted of cloning the main page of [Newsweek](http://www.newsweek.com) using mainly Bootstrap. It was a project that took me a long time, especially since I had to dig a lot into this Framework and solve some thorny issues, such as the issue of the order of the sections according to screen size. But in the end the feeling is very rewarding.
+
+* [22 June, 2021]: Finally! With the Design Your Own Grid-Based Framework project in Sass I have finished the HTML & CSS course in **The Odin Project**. In **freeCodeCamp** I had already finished it two years ago. I still have a lot of details to learn, but I think I finished the course with a much deeper understanding of HTML and CSS, and especially technologies like Bootstrap and Sass. Now comes the most interesting part: here we go JavaScript!
 
 # Projects
 
@@ -46,6 +48,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [Design Teardown](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
 * [Building with Responsive Design](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
 * [Using Bootstrap - Newsweek clone](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/bootstrap-newsweek/index.html)
+* [Design Your Own Grid-Based Framework](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/grid-framework/index.html)
 
 ## freeCodeCamp
 

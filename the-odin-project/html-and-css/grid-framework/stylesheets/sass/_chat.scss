@@ -1,0 +1,10 @@
+.chat {
+  &__lead {
+    color: $muted-font-color;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    margin: 0 auto 1rem;
+    max-width: 25em;
+    font-weight: 100;
+  }
+}

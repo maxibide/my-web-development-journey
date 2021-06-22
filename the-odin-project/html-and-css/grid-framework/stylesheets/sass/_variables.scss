@@ -1,0 +1,22 @@
+$break-points: (
+  "xs": 0,
+  "sm": 768px,
+  "md": 992px,
+  "lg": 1200px,
+);
+
+$gutter: 15px;
+
+$font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-font-color: #4a4a4a;
+$secondary-font-color: #ce973e;
+$muted-font-color: rgba(74, 74, 74, 0.7);
+
+$margins: (
+  "0": 0,
+  "1": 0.25rem,
+  "2": 0.5rem,
+  "3": 1rem,
+  "4": 1.5rem,
+  "5": 3rem,
+);

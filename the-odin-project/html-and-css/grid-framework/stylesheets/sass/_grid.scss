@@ -1,0 +1,29 @@
+body{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row > * {
+  flex-basis: 100%;
+}
+
+.row *:last-child {
+  margin-right: 0;
+}
+
+@each $break-point, $width in $break-points {
+  @media screen and (min-width: $width) {
+    @for $i from 1 through 12 {
+      $column-width: 100%/12 * $i;
+      .col-#{$break-point}-#{$i} {
+        flex-basis: calc(#{$column-width} - #{$gutter});
+        margin-right: $gutter;
+      }
+    }
+  }
+}

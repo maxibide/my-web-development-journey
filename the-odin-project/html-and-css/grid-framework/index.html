@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/092222252e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <title>
+      Project: Design Your Own Grid-Based Framework|The Odin Project
+    </title>
+  </head>
+  <body>
+    <header class="header d-xs-flex jc-between ai-center">
+      <a href="#" class="logo d-xs-flex ai-center"
+        ><img src="./images/odin-logo.svg" alt="logo" class="logo__img" />
+        <div class="logo__text">The Odin Project</div>
+      </a>
+      <nav>
+        <ul class="list-none d-sm-flex d-xs-none ai-center">
+          <li><a href="#" class="nav__link">My Path</a></li>
+          <li><a href="#" class="nav__link">All Paths</a></li>
+          <li><a href="#" class="nav__link">Community</a></li>
+          <li><span class="nav__link nav__link--separator"></span></li>
+          <li>
+            <a href="#"><div class="nav__user"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="d-sm-none nav__toggler">
+        <a href=""><i class="fas fa-bars"></i></a>
+      </nav>
+    </header>
+    <main>
+      <div class="lesson-header">
+        <a href="#"
+          ><img src="./images/course.png" alt="HTML and CSS course"
+        /></a>
+        <hgroup>
+          <h1 class="lesson-header__title">HTML and CSS</h1>
+          <h2 class="lesson-header__subtitle">
+            Project: Design your own grid-based framework
+          </h2>
+        </hgroup>
+      </div>
+      <div class="row mt-xs-5">
+        <div class="col-xs-3 col-lg-3 d-md-block d-xs-none">
+          <nav class="m-auto w-70">
+            <ul class="list-none">
+              <li class="mb-xs-4">
+                <a
+                  href="#introduction"
+                  class="
+                    lesson-nav__link lesson-nav__link--active
+                    d-xs-flex
+                    ai-center
+                  "
+                  ><div
+                    class="lesson-nav__circle lesson-nav__circle--active"
+                  ></div>
+                  <span class="ml-xs-2">Introduction</span></a
+                >
+              </li>
+              <li class="mb-xs-4">
+                <a
+                  href="#assignment"
+                  class="lesson-nav__link d-xs-flex ai-center"
+                  ><div class="lesson-nav__circle"></div>
+                  <span class="ml-xs-2">Assignment</span></a
+                >
+              </li>
+              <li class="mb-xs-4">
+                <a
+                  href="#resources"
+                  class="lesson-nav__link d-xs-flex ai-center"
+                  ><div class="lesson-nav__circle"></div>
+                  <span class="ml-xs-2">Additional resources</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="col-lg-6 col-md-8 col-xs-12 mr-xs-5 ml-xs-5 mr-lg-0 ml-md-0"
+        >
+          <div id="introduction">
+            <h3 class="lesson-content__title">Introduction</h3>
+            <p>
+              In this final project, you’ll get to take everything you’ve
+              learned and use it to build your own simple grid-based framework.
+              As with the other final projects, we’ll keep it relatively
+              open-ended to give you a chance to exercise your creativity and
+              problem-solving skills. It will be a great project to show off to
+              potential employers as well.
+            </p>
+            <p>
+              Once you’re donesetting up your framework, you will use it to
+              clone any website you like. If you’re out of ideas, try cloning
+              The Odin Project!
+            </p>
+          </div>
+          <div id="assignment">
+            <h3 class="lesson-content__title">Assignment</h3>
+            <p>You’ll be creating your own grid-based framework.</p>
+            <div class="lesson-content__instructions">
+              <ol>
+                <li class="mb-xs-3 mt-xs-3">
+                  Follow the instructions atop the
+                  <a
+                    href="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css"
+                    class="link"
+                    >Google Homepage project</a
+                  >
+                  to set up a GitHub repository for this project (of course
+                  you’ll need to change the title).
+                </li>
+                <li class="mb-xs-3 mt-xs-3">Create a new CSS document.</li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Think about the major elements that are required of a
+                  framework. This includes a CSS reset, a fixed number of grids
+                  separated by “gutters”, a way to make new rows, and default
+                  values for the font properties of elements.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Write the CSS necessary to create a basic 12-column grid
+                  framework. Check out the
+                  <a href="https://960.gs/" class="link"
+                    >960 Grid System documentation</a
+                  >
+                  for a look at how they do it. The complexity is up to you –
+                  there’s no need to go too crazy with details (you’re not
+                  trying to rebuild Bootstrap).
+                </li>
+                <li class="mb-xs-3 mt-xs-3">Push your framework to GitHub.</li>
+              </ol>
+              <h4>Applying the Framework</h4>
+              <ol>
+                <li class="mb-xs-3 mt-xs-3">
+                  Create a new HTML document and a new GitHub repository.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Identify the webpage you’d like to clone and break it down
+                  into its major elements like we have in the previous projects.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Add your framework to your project.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Use your framework to lay out the structure of the page.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Fill in the necessary details/images etc.
+                </li>
+                <li class="mb-xs-3 mt-xs-3">Push your solution to GitHub.</li>
+                <li class="mb-xs-3 mt-xs-3">
+                  Have a frosty beverage, you’re done with the HTML/CSS
+                  projects!
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div id="resources">
+            <h3 class="lesson-content__title">Additional Resources</h3>
+            <p>
+              This section contains helpful links to other content. It isn’t
+              required, so consider it supplemental for if you need to dive
+              deeper into something.
+            </p>
+            <ul>
+              <li
+                class="lesson-content__resource lesson-content__resource--muted"
+              >
+                Add some!
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-3 d-xs-none d-lg-none"></div>
+      </div>
+    </main>
+    <aside>
+      <div class="panel">
+        <div class="panel__header">
+          <hgroup>
+            <h3 class="panel__title">Solutions:</h3>
+            <h4 class="panel__subtitle">
+              HTML and CSS: (Design Your Own Grid-Based Framework)
+            </h4>
+          </hgroup>
+          <button class="button button--primary">Add Solution</button>
+        </div>
+        <ul class="list-none">
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                4 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">Zack-Mks</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                3 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">Alex</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                2 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">hackerman</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">amrin</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">haroldm2598</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">dcoates83</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">Captain Usopp</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">Chezynickannie</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">Igor</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+          <li class="submissions__submission">
+            <div class="d-xs-flex jc-between ai-center">
+              <div class="submissions__like">
+                1 <i class="fas fa-heart"></i>
+              </div>
+              <p class="submissions__submission_title">arbob</p>
+            </div>
+            <div>
+              <button class="button button--submission">View Code</button
+              ><button class="button button--submission">Live Preview</button
+              ><i class="fas fa-flag submissions__flag"></i>
+            </div>
+          </li>
+        </ul>
+        <p class="text-center submissions__view-more">
+          Showing 10 most liked submissions -
+          <a href="#" class="link">View full list of solutions</a>
+        </p>
+        <div class="panel__button-group">
+          <button class="button button--secondary panel__button-group-item">
+            View Course</button
+          ><button class="button button--primary panel__button-group-item">
+            <div class="d-xs-flex jc-center ai-center">
+              <i class="fas fa-check-circle mr-xs-2"></i>Complete
+            </div></button
+          ><button class="button button--secondary panel__button-group-item">
+            Next Lesson
+          </button>
+        </div>
+      </div>
+      <div class="chat">
+        <p class="edit mb-xs-5">
+          <a href="#" class="link link--no-underline"
+            ><i class="fab fa-github mr-xs-2"></i>Improve this lesson on
+            GitHub</a
+          >
+        </p>
+        <p class="chat__lead">Have a question?</p>
+        <p>Chat with our friendly Odin community in our Discord chatrooms!</p>
+        <button class="button button--secondary mt-xs-4">Open Discord</button>
+      </div>
+      <div class="panel mt-xs-5">
+        <div class="panel__header panel__header--border">
+          <h4 class="panel__subtitle panel__subtitle--w70">
+            Are you interested in accelerating your web development learning
+            experience?
+          </h4>
+          <button class="button button--primary">Get Started</button>
+        </div>
+        <div class="panel__body">
+          <a href="#" class="panel__logo">
+            <img src="./images/thinkful.svg" alt="" class="panel__logo-img" />
+            <p class="panel__name">Thinkful</p>
+          </a>
+          <div>
+            <ul class="panel__icons-group">
+              <li class="panel__icons-group-item">
+                <img src="./images/calendar.svg" alt="" class="panel__icon" />
+                <p class="panel__icon-text">5-6 months</p>
+              </li>
+              <li class="panel__icons-group-item">
+                <img src="./images/guarantee.svg" alt="" class="panel__icon" />
+                <p class="panel__icon-text">Job Guarantee</p>
+              </li>
+              <li class="panel__icons-group-item">
+                <img src="./images/mentorship.svg" alt="" class="panel__icon" />
+                <p class="panel__icon-text">1-on-1 Mentorship</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer class="footer">
+      <div class="footer__brand">
+        <a href="#" class="logo d-xs-flex ai-center jc-center"
+          ><img src="./images/odin-logo.svg" alt="logo" class="logo__img" />
+          <div class="logo__text logo__text--small">The Odin Project</div></a
+        >
+      </div>
+      <div class="footer__social">
+        <a href="#" class="link link--no-underline footer__social-anchor">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="link link--no-underline footer__social-anchor">
+          <i class="fab fa-discord"></i>
+        </a>
+        <a href="#" class="link link--no-underline footer__social-anchor">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="link link--no-underline footer__social-anchor">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <nav class="footer__nav d-xs-flex jc-center ai-center">
+        <div class="footer__nav-container">
+          <a href="#" class="nav__link footer__link">About</a>
+          <a href="#" class="nav__link footer__link">FAQ</a>
+          <a href="#" class="nav__link footer__link">Blog</a>
+        </div>
+        <div class="footer__nav-container">
+          <a href="#" class="nav__link footer__link">Success Stories</a>
+          <a href="#" class="nav__link footer__link">Contribute</a>
+          <a href="#" class="nav__link footer__link">Terms of Use</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.lesson-header {
+  text-align: center;
+  &__title {
+    font-weight: 300;
+    font-size: 2.25rem;
+    letter-spacing: 0.4px;
+  }
+
+  &__subtitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $secondary-font-color;
+    font-size: 1.25rem;
+  }
+}
+
+.lesson-nav {
+  &__link {
+    text-transform: uppercase;
+    color: $muted-font-color;
+    font-size: 13px;
+
+    &--active {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+  &__circle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: $muted-font-color;
+    border-radius: 50%;
+
+    &--active {
+      background-color: #000;
+    }
+  }
+}
+
+.lesson-content {
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+  }
+  &__instructions {
+    background-color: #f3f3f3;
+    padding: 1.5em;
+    margin: 20px 0 50px 0;
+    border-radius: 10px;
+  }
+  &__resource {
+    font-size: 1.125rem;
+    &--muted {
+      color: $muted-font-color;
+    }
+  }
+}

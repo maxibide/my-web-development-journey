@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+@font-face {
+  font-family: Norse;
+  src: url("../../fonts/Norse.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Norse;
+  font-weight: bold;
+  src: url("../../fonts/Norsebold.otf") format("opentype");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  color: $primary-font-color;
+}
+
+aside {
+  padding: 70px 0;
+  background: #eee;
+  text-align: center;
+}
+
+main {
+  padding-bottom: 60px;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+p,
+ol {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.9;
+  word-break: break-word;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.link {
+  color: $secondary-font-color;
+  text-decoration: underline;
+}
+
+.link--no-underline {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #000;
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+@each $break-point, $width in $break-points {
+  @media screen and (min-width: $width) {
+    @each $size, $margin in $margins {
+      .m-#{$break-point}-#{$size} {
+        margin: $margin;
+      }
+      .mt-#{$break-point}-#{$size} {
+        margin-top: $margin;
+      }
+      .mb-#{$break-point}-#{$size} {
+        margin-bottom: $margin;
+      }
+      .mr-#{$break-point}-#{$size} {
+        margin-right: $margin;
+      }
+      .ml-#{$break-point}-#{$size} {
+        margin-left: $margin;
+      }
+    }
+  }
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+@each $break-point, $width in $break-points {
+  @media screen and (min-width: $width) {
+    .d-#{$break-point}-none {
+      display: none;
+    }
+  }
+}
+
+@each $break-point, $width in $break-points {
+  @media screen and (min-width: $width) {
+    .d-#{$break-point}-block {
+      display: block;
+    }
+  }
+}
+
+@each $break-point, $width in $break-points {
+  @media screen and (min-width: $width) {
+    .d-#{$break-point}-flex {
+      display: flex;
+    }
+  }
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.icon-large {
+  font-size: 1.7rem;
+}

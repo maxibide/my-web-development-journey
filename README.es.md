@@ -29,6 +29,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [25 de Mayo de 2021]: Terminé el proyecto de diseño con Bootstrap. El proyecto consistía en clonar la página principal de [Newsweek](http://www.newsweek.com) utilizando principalmente Bootstrap. Fue un proyecto que me llevó mucho tiempo, especialmente porque tuve que profundizar bastante en esta Framework y resolver algunos asuntos espinosos, como el tema de el orden de las secciones de acuerdo al tamaño de pantalla. Pero al final la sensación es muy gratificante.
 
+* [22 de Junio de 2021]: Al fin! Con el proyecto de diseño de un sistema de grillas en Sass he terminado el curso de HTML & CSS en **The Odin Project**. En **freeCodeCamp** ya lo había terminado hace dos años. Todavía me quedan muchos detalles por aprender, pero creo terminé el curso con un entendimiento mucho más profundo de HTML y CSS, y sobre todo de tecnologías como Bootstrap y Sass. Ahora viene lo más interesante: allá vamos JavaScript!
+
 # Proyectos
 
 ## El proyecto Odin
@@ -46,7 +48,7 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 * [Desmontaje de un diseño](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/webpage-heatmap/index.html)
 * [Proyecto de construcción con diseño responsivo](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
 * [Usando Bootstrap - Clon de Newsweek](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/bootstrap-newsweek/index.html)
-
+* [Diseño de un diseño basado en grillas propio](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/grid-framework/index.html)
 
 ## freeCodeCamp
 

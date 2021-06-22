@@ -1,0 +1,131 @@
+.header {
+  margin-bottom: 50px;
+  padding: 0 168px;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 0 20px;
+  }
+}
+
+.logo {
+  &__img {
+    height: 70px;
+    @media screen and (max-width: 992px) {
+      height: 60px;
+    }
+  }
+
+  &__text {
+    font-family: "Norse";
+    color: $secondary-font-color;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 0.5em;
+
+    @media screen and (max-width: 1036px) {
+      font-size: 1.4em;
+    }
+
+    &--small {
+      font-size: 1.6em;
+      @media screen and (max-width: 1036px) {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.nav {
+  &__link {
+    color: rgba(74, 74, 74, 0.7);
+    letter-spacing: 0.2px;
+    font-size: 1em;
+    font-weight: bold;
+    @media (min-width: 768px) {
+      padding: 0 0.5rem;
+    }
+
+    &:hover {
+      color: #000;
+    }
+
+    &--separator:after {
+      font-size: 1.5em;
+      content: "|";
+      padding: 0;
+    }
+  }
+  &__user {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  &__toggler {
+    font-size: 20px;
+  }
+}
+
+.footer {
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  min-height: 277px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  display: flex;
+
+  @media (max-width: 768px) {
+    min-height: 140px;
+  }
+
+  &__brand {
+    flex: 2;
+    margin: auto;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    flex: 1;
+  }
+
+  &__social-anchor {
+    flex: 1;
+  }
+
+  &__nav {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px) {
+      flex: 1;
+    }
+  }
+
+  &__nav-container {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 90px;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  &__link {
+    flex-basis: 30px;
+    padding: 0;
+  }
+}
