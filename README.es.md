@@ -31,6 +31,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [22 de Junio de 2021]: Al fin! Con el proyecto de diseño de un sistema de grillas en Sass he terminado el curso de HTML & CSS en **The Odin Project**. En **freeCodeCamp** ya lo había terminado hace dos años. Todavía me quedan muchos detalles por aprender, pero creo terminé el curso con un entendimiento mucho más profundo de HTML y CSS, y sobre todo de tecnologías como Bootstrap y Sass. Ahora viene lo más interesante: allá vamos JavaScript!
 
+* [23 de Julio de 2021]: Por fin, he terminado el primer proyecto de JavaScript en **The Odin Project**. El proyecto en sí me llevó poco tiempo completarlo, ya que JavaScript no era completamente nuevo para mí (ya había terminado el curso de **freeCodeCamp** hace un par de años). Pero me tomé un tiempo para hacer una lectura más profunda de los conceptos básicos. Hasta el momento todo bien.
+
 # Proyectos
 
 ## El proyecto Odin
@@ -38,6 +40,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 ### Web Development 101
 
 * [Página de resultados de Google](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
+* [Proyecto: Piedra, papel o tijeras](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/rock-paper-scissors/)
+
 
 ### HTML y CSS
 

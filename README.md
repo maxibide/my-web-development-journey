@@ -31,6 +31,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [22 June, 2021]: Finally! With the Design Your Own Grid-Based Framework project in Sass I have finished the HTML & CSS course in **The Odin Project**. In **freeCodeCamp** I had already finished it two years ago. I still have a lot of details to learn, but I think I finished the course with a much deeper understanding of HTML and CSS, and especially technologies like Bootstrap and Sass. Now comes the most interesting part: here we go JavaScript!
 
+* [23 July, 2021]: At last, I have finished the first JavaScript project in **The Odin Project**. The project itself took me little time to complete, as JavaScript wasn't enterely new for me (I've had already finished **freeCodeCamp's** course a couple of years ago). But I took some time to make a more profound read on the basics. So far, so good.
+
 # Projects
 
 ## The Odin Project
@@ -38,6 +40,7 @@ So, here I will document the progress and all the projects I make in this journe
 ### Web Development 101
 
 * [Google Results Page](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
+* [Project: Rock Paper Scissors](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/rock-paper-scissors/)
 
 ### HTML and CSS
 
