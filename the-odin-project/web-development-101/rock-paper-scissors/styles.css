@@ -17,14 +17,18 @@ body {
   font-family: "Patrick Hand", cursive;
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
   background-color: var(--color4);
-  position: relative;
 }
 
 p {
   text-align: center;
   margin: 10px;
+}
+
+a {
+  color: inherit;
+  
 }
 
 .header {
@@ -45,7 +49,7 @@ p {
 
 .firstToWin {
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   margin: 10px 0;
 }
 
@@ -73,16 +77,16 @@ p {
 }
 
 .weapon-image {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .player {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .img {
-  height: 100px;
+  height: 90px;
   flex-grow: 0;
 }
 
@@ -104,7 +108,7 @@ p {
   min-width: 50px;
   padding: 5px;
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   background-color: var(--color5);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -138,12 +142,16 @@ p {
 }
 
 .container-final {
-  height: calc(100vh - 137px);
+  height: calc(100vh - 140px);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: 0;
+}
+
+.container-play {
+  min-height: calc(100vh - 140px);
 }
 
 .hide {
@@ -156,9 +164,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding: 5;
-  position: fixed;
-  bottom: 0;
+  padding: 3;
   width: 100%;
 }
 
@@ -168,6 +174,10 @@ footer {
 
 .won-img {
   width: 200px;
+}
+
+.author {
+  margin: 0 10px;
 }
 
 @media (min-width: 768px) {
@@ -222,19 +232,27 @@ footer {
   .result {
     margin: 0 auto;
   }
+
+  .container-play {
+    min-height: calc(100vh - 163px);
+  }
+
+  .container-final {
+    height: calc(100vh - 163x);
+  }
 }
 
 @media (min-width: 1024px) {
   body {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .title {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .firstToWin {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .weapon-image {
@@ -258,6 +276,16 @@ footer {
   .won-img {
     width: 300px;
   }
+
+  .container-play {
+    min-height: calc(100vh - 157px);
+  }
+
+  .container-final {
+    height: calc(100vh - 157x);
+  }
+}
+
 }
 
 @media (min-width: 1300px) {
