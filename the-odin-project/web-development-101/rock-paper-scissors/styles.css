@@ -142,7 +142,7 @@ a {
 }
 
 .container-final {
-  height: calc(100vh - 140px);
+  height: calc(100vh - 130px);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -238,7 +238,7 @@ footer {
   }
 
   .container-final {
-    height: calc(100vh - 163x);
+    height: calc(100vh - 153px);
   }
 }
 
@@ -282,7 +282,7 @@ footer {
   }
 
   .container-final {
-    height: calc(100vh - 157x);
+    height: calc(100vh - 147px);
   }
 }
 
