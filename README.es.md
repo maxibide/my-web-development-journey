@@ -33,6 +33,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [23 de Julio de 2021]: Por fin, he terminado el primer proyecto de JavaScript en **The Odin Project**. El proyecto en sí me llevó poco tiempo completarlo, ya que JavaScript no era completamente nuevo para mí (ya había terminado el curso de **freeCodeCamp** hace un par de años). Pero me tomé un tiempo para hacer una lectura más profunda de los conceptos básicos. Hasta el momento todo bien.
 
+* [08 de Agosto de 2021]: Terminé de leer el curso sobre manipulación del **DOM** con Javascript y le agregué una interfaz gráfica al juego "Piedra Papel o Tijeras". Aproveché también a refactorear el código que escribí originalmente para darle mayor claridad y a repasar conceptos de HTML y CSS que aprendí en los cursos anteriores. Muy entretenido!
+
 # Proyectos
 
 ## El proyecto Odin

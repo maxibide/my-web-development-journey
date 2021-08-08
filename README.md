@@ -33,6 +33,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [23 July, 2021]: At last, I have finished the first JavaScript project in **The Odin Project**. The project itself took me little time to complete, as JavaScript wasn't enterely new for me (I've had already finished **freeCodeCamp's** course a couple of years ago). But I took some time to make a more profound read on the basics. So far, so good.
 
+* [08 August, 2021]: I finished reading the **DOM** manipulation course with Javascript and added a graphical interface to the "Rock Paper or Scissors" game. I also took the opportunity to refactor the code that I originally wrote to give it more clarity and to review HTML and CSS concepts that I learned in previous courses. Very entertaining!
+
 # Projects
 
 ## The Odin Project
