@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #a64ac9;
+  --color2: #fccd04;
+  --color3: #ffb48f;
+  --color4: #f5e6cc;
+  --color5: #17e9e0;
+}
+
+body {
+  font-family: "Patrick Hand", cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  background-color: var(--color4);
+  position: relative;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+.header {
+  text-align: center;
+  background-color: var(--color3);
+  border-bottom: 2px var(--color1) solid;
+  margin: 0;
+  padding: 5px;
+}
+
+.title {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--color1);
+  margin: 10px;
+}
+
+.firstToWin {
+  text-align: center;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weapon,
+.weapon-selected {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+  width: fit-content;
+}
+
+.weapon:hover {
+  background-color: var(--color2);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.weapon-image {
+  width: 80px;
+  height: 80px;
+}
+
+.player {
+  margin-top: 20px;
+}
+
+.img {
+  height: 100px;
+  flex-grow: 0;
+}
+
+.player-avatar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.btn {
+  min-width: 50px;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: var(--color5);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--color3);
+}
+
+.selections {
+  margin: 20px 10px;
+  width: 25%;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.resolution {
+  text-align: center;
+  width: 75%;
+}
+
+.computer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-final {
+  height: calc(100vh - 137px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  background-color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.score-card {
+  font-size: 30px;
+}
+
+.won-img {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .firstToWin {
+    font-size: 40px;
+  }
+
+  .options {
+    justify-content: center;
+  }
+
+  .container-results {
+    display: flex;
+  }
+  .computer,
+  .player {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .player-avatar {
+    flex-direction: column;
+  }
+
+  .action {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selections {
+    display: flex;
+    width: fit-content;
+  }
+
+  .resolution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .result {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .firstToWin {
+    font-size: 40px;
+  }
+
+  .weapon-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .img {
+    height: 120px;
+  }
+
+  .btn {
+    font-size: 20px;
+    min-width: 70px;
+  }
+
+  .score-card {
+    font-size: 50px;
+  }
+
+  .won-img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container-play {
+    width: 1100px;
+    max-width: 1100px;
+    margin: auto;
+  }
+}

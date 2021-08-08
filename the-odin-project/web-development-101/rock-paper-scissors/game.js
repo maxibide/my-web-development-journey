@@ -1,73 +1,83 @@
-
-const gamesToPlay = 5;
-let gamesPlayed = 0;
+const gamesToWin = 5;
 let computerScore = 0;
 let playerScore = 0;
 
-while (gamesPlayed < gamesToPlay) {
-  let computerSelection = askComputer();
-  let playerSelection = askPlayer();
-  let result = checkResult(playerSelection, computerSelection);
-  if (result === 1) {
-    playerScore++;
-  } else if (result === -1) {
-    computerScore++;
+const rockBtn = document.querySelector('#rock');
+const paperBtn = document.querySelector('#paper');
+const scissorsBtn = document.querySelector('#scissors');
+const playerImage = document.querySelector('#playerImage');
+const changeToBoyBtn = document.querySelector('#boy');
+const changeToGirlBtn = document.querySelector('#girl');
+const playerWeapon = document.querySelector('#playerWeapon');
+const computerWeapon = document.querySelector('#computerWeapon');
+const resultScreen = document.querySelector('#result');
+const scoreScreen = document.querySelector('#score');
+const containerPlay = document.querySelector('#container-play');
+const containerFinal = document.querySelector('#container-final');
+const whoWon = document.querySelector('#whoWon');
+const playAgain = document.querySelector('#playAgain');
+const wonImage = document.querySelector('#won-img');
+
+changeToBoyBtn.addEventListener('click', () => {
+  playerImage.setAttribute('src', "./images/boy.png")
+});
+
+changeToGirlBtn.addEventListener('click', () => {
+  playerImage.setAttribute('src', "./images/girl.png")
+});
+
+rockBtn.addEventListener('click', () => { play('rock'); });
+
+paperBtn.addEventListener('click', () => { play('paper'); });
+
+scissorsBtn.addEventListener('click', () => { play('scissors'); });
+
+playAgain.addEventListener('click', () => {
+  computerScore = 0;
+  playerScore = 0;
+  playerWeapon.setAttribute('src', "./images/none.png");
+  computerWeapon.setAttribute('src', "./images/none.png");
+  scoreScreen.textContent = `${playerScore} - ${computerScore}`;
+  containerPlay.classList.toggle('hide');
+  containerFinal.classList.toggle('hide');
+})
+
+function play(playerSelection) {
+  checkResult(playerSelection, askComputer());
+  scoreScreen.textContent = `${playerScore} - ${computerScore}`;
+  if (playerScore >= 5) {
+    whoWon.textContent = "You won!";
+    wonImage.setAttribute('src', "./images/happy-player.png");
+    containerPlay.classList.toggle('hide');
+    containerFinal.classList.toggle('hide');
+  } else if (computerScore >= 5) {
+    whoWon.textContent = "You lost!";
+    wonImage.setAttribute('src', "./images/happy-computer.png");
+    containerPlay.classList.toggle('hide');
+    containerFinal.classList.toggle('hide');
   }
-  gamesPlayed++;
-  alert(`Ya jugamos ${gamesPlayed} partidas de ${gamesToPlay}
-  Puntaje Jugador = ${playerScore}
-  Puntaje Computadora = ${computerScore}`);
 }
 
-// Returns a random integer between min (included) and max (excluded).
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-
-// Picks a random integer between 1 and 3, and according to the number picked
-// returns "piedra" (rock) for 1, "papel" (paper) for 2 or "tijeras" (scisorss) for 3.
 function askComputer() {
-  let selection = getRandomInt(1, 4);
-  if (selection === 1) {
-    return "piedra";
-  } else if (selection === 2) {
-    return "papel";
-  } else {
-    return "tijeras";
-  }
+  const options = ["rock", "paper", "scissors"];
+  return options[Math.floor(Math.random() * options.length)];
 }
 
-// Ask player for a selection and check if it is valid; if it is, return selection, if not, ask again.
-function askPlayer() {
-  let selection = prompt("Piedra, papel o tijeras ?").toLowerCase();
-  if (
-    selection === "piedra" ||
-    selection === "papel" ||
-    selection === "tijeras"
-  ) {
-    return selection;
-  } else {
-    alert("Opción inválida. Elija de nuevo");
-    return askPlayer();
-  }
-}
-
-// Check who won or if it was a tie. If it was a tie return 0, if player won return 1, if computer won return -1;
 function checkResult(playerSelection, computerSelection) {
+  playerWeapon.setAttribute('src', `./images/hand-${playerSelection}.png`);
+  computerWeapon.setAttribute('src', `./images/hand-${computerSelection}.png`);
   switch (true) {
     case playerSelection === computerSelection:
-      alert(`La computadora eligió ${computerSelection}.
-      ¡Empate! Los dos eligieron ${playerSelection}.`);
-      return 0;
-    case playerSelection === "papel" && computerSelection === "piedra":
-    case playerSelection === "piedra" && computerSelection === "tijeras":
-    case playerSelection === "tijeras" && computerSelection === "papel":
-      alert(`La computadora eligió ${computerSelection}.
-      ¡Ganaste! ${playerSelection} le gana a ${computerSelection}`);
-      return 1;
+      resultScreen.textContent = "It's a tie";
+      break;
+    case playerSelection === "paper" && computerSelection === "rock":
+    case playerSelection === "rock" && computerSelection === "scissors":
+    case playerSelection === "scissors" && computerSelection === "paper":
+      resultScreen.textContent = "Player wins!";
+      playerScore += 1;
+      break;
     default:
-      alert(`La computadora eligió ${computerSelection}.
-      ¡Perdiste! ${playerSelection} pìerde con ${computerSelection}`);
-      return -1;
+      resultScreen.textContent = "Computer wins!";
+      computerScore += 1;
   }
 }

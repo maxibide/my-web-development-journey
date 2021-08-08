@@ -1,10 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
+    <script src="./game.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rock, paper or scissors?</title>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
   </head>
   <body>
-    <script src="./game.js" type="text/javascript"></script>
+    <header class="header">
+      <h1 class="title">Rock, paper or scissors?</h1>
+    </header>
+    <div id="container-play" class="container-play">
+      <h2 class="firstToWin">First to five wins!</h2>
+      <p>Choose your weapon:</p>
+      <div class="options">
+        <div class="weapon" id="rock">
+          <img
+            src="./images/hand-rock.png"
+            alt="rock icon"
+            class="weapon-image"
+          />
+        </div>
+        <div class="weapon" id="paper">
+          <img
+            src="./images/hand-paper.png"
+            alt="paper icon"
+            class="weapon-image"
+          />
+        </div>
+        <div class="weapon" id="scissors">
+          <img
+            src="./images/hand-scissors.png"
+            alt="scissors icon"
+            class="weapon-image"
+          />
+        </div>
+      </div>
+      <div class="container-results">
+        <div class="player">
+          <p>Player</p>
+          <div class="player-avatar">
+            <img
+              src="./images/boy.png"
+              alt="player"
+              class="img"
+              id="playerImage"
+            />
+            <div class="avatar">
+              <p>Change Avatar</p>
+              <div class="btn-group">
+                <button id="boy" class="btn">Boy</button>
+                <button id="girl" class="btn">Girl</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="action">
+          <div class="selections">
+            <div class="weapon-selected">
+              <img
+                src="./images/none.png"
+                alt="icon"
+                class="weapon-image"
+                id="playerWeapon"
+              />
+            </div>
+            <div class="weapon-selected">
+              <img
+                src="./images/none.png"
+                alt="icon"
+                class="weapon-image"
+                id="computerWeapon"
+              />
+            </div>
+          </div>
+          <div class="resolution">
+            <div class="result" id="result"></div>
+            <div>
+              <h4 class="score-title">Score</h4>
+              <div class="score-card" id="score">0 - 0</div>
+            </div>
+          </div>
+        </div>
+        <div class="computer">
+          <p>Computer</p>
+          <img src="./images/computer.png" alt="computer" class="img" />
+        </div>
+      </div>
+    </div>
+    <div class="container-final hide" id="container-final">
+      <h2 class="whoWon" id="whoWon"></h2>
+      <img
+        src="./images/none.png"
+        alt="happy winner"
+        class="won-img"
+        id="won-img"
+      />
+      <button id="playAgain" class="btn">Play Again?</button>
+    </div>
+    <footer>
+      <p>By Maximiliano Bidegain</p>
+      <p>2021</p>
+    </footer>
   </body>
 </html>
