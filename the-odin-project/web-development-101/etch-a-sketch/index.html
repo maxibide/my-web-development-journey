@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/092222252e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Etch-a-Sketch</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Etch-a-Sketch</h1>
+      <div class="main">
+        <div class="options">
+          <div class="opt-clear">
+            <button class="btn" id="reset">Clear</button>
+          </div>
+          <div class="opt-colors">
+            <h2>Color mode</h2>
+            <div class="opt-colors-inner">
+              <div class="opt-colors-pick">
+                <input type="color" name="color" id="colorSelect" />
+                <button class="btn btn--active" id="color">Color</button>
+              </div>
+              <button class="btn" id="rainbow">Rainbow</button>
+            </div>
+          </div>
+          <div class="opt-pixels">
+            <h2>Grid density</h2>
+            <div class="opt-pixels-inner">
+              <div class="opt-density">
+                <p class="density" id="density">38 x 38</p>
+                <input
+                  type="range"
+                  name="sizeRange"
+                  id="sizeRange"
+                  min="12"
+                  max="64"
+                  step="2"
+                />
+              </div>
+              <button class="btn" id="grid">Show</button>
+            </div>
+          </div>
+        </div>
+        <div class="screen" id="screen"></div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        By
+        <span class="author"
+          ><a href="https://github.com/maxibide"
+            ><i class="fab fa-github"></i
+          ></a>
+          Maximiliano Bidegain 2021</span
+        >
+      </p>
+    </footer>
+  </body>
+</html>
