@@ -35,14 +35,17 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [08 August, 2021]: I finished reading the **DOM** manipulation course with Javascript and added a graphical interface to the "Rock Paper or Scissors" game. I also took the opportunity to refactor the code that I originally wrote to give it more clarity and to review HTML and CSS concepts that I learned in previous courses. Very entertaining!
 
+* [13 August, 2021]: I completed another very interesting project for **The Odin Project**. I created an Etch-a-Sketch pad, wich is basically a very simple paint app. This project was very satisfying to do beacause my kid son was super happy with it. I know I still have a lot to learn from Javascript, but these little things help and are very motivating to continue.
+
 # Projects
 
 ## The Odin Project
 
-### Web Development 101
+### Foundations (*Formerly known as* Web Development 101)
 
 * [Google Results Page](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [Project: Rock Paper Scissors](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/rock-paper-scissors/)
+* [Etch-a-Sketch](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/etch-a-sketch/).
 
 ### HTML and CSS
 

@@ -35,14 +35,17 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [08 de Agosto de 2021]: Terminé de leer el curso sobre manipulación del **DOM** con Javascript y le agregué una interfaz gráfica al juego "Piedra Papel o Tijeras". Aproveché también a refactorear el código que escribí originalmente para darle mayor claridad y a repasar conceptos de HTML y CSS que aprendí en los cursos anteriores. Muy entretenido!
 
+* [13 de Agosto de 2021]: Completé otro proyecto muy interesante para **The Odin Project**. Creé un bloc de Etch-a-Sketch, que es básicamente una aplicación de pintura muy simple. Este proyecto fue muy satisfactorio porque mi hijo estaba súper feliz con él. Sé que todavía tengo mucho que aprender de Javascript, pero estas pequeñas cosas ayudan y son muy motivadoras para continuar.
+
 # Proyectos
 
 ## El proyecto Odin
 
-### Web Development 101
+### Foundations (*ex* Web Development 101)
 
 * [Página de resultados de Google](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [Proyecto: Piedra, papel o tijeras](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/rock-paper-scissors/)
+* [Etch-a-Sketch](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/etch-a-sketch/).
 
 
 ### HTML y CSS
