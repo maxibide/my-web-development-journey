@@ -1,0 +1,130 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(5, 50px);
+  grid-gap: 10px;
+  justify-content: space-around;
+  padding: 20px 0;
+  width: 320px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.calculator--screen {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.calculator--button {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.calculator--button:hover{
+    background-color: aqua;
+}
+
+#screen {
+  grid-column: 1 / 6;
+}
+
+#operand0 {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+#operand1 {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+#operand2 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#operand3 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+}
+
+#operand4 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+#operand5 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#operand6 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+#operand7 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#operand8 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#operand9 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+#floatingPoint {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+#operatorEqual {
+  grid-column: 4 / 5;
+  grid-row: 5 / 6;
+}
+
+#clear {
+  grid-column: 1 / 2;
+  grid-row: 4 / 6;
+}
+
+#back {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+#operatorAdd {
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+}
+
+#operatorSubstract {
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+}
+
+#operatorMultiply {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+}
+
+#operatorDivide {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
