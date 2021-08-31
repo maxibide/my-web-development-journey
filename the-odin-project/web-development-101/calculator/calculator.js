@@ -6,7 +6,7 @@ function calculate(a, b, operator) {
             return a - b;
         case "x":
             return a * b;
-        case "/":
+        case "÷":
             return a / b;
         default:
             return "Not a valid operator";
@@ -168,7 +168,7 @@ document
     .addEventListener("click", () => input.insertOperator("x"));
 document
     .querySelector("#operatorDivide")
-    .addEventListener("click", () => input.insertOperator("/"));
+    .addEventListener("click", () => input.insertOperator("÷"));
 document
     .querySelector("#operatorEqual")
     .addEventListener("click", () => input.operate());
