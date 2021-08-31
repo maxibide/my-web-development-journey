@@ -1,3 +1,7 @@
+body {
+  background-color: #f3767c;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(5, 50px);
@@ -8,6 +12,7 @@
   width: 320px;
   margin: 0 auto;
   border: 1px solid black;
+  background: linear-gradient(45deg, #3b373d, #22121a);
 }
 
 .calculator--screen {
@@ -16,6 +21,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 10px;
+  background-color: #a2af77;
 }
 
 .calculator--button {
@@ -24,10 +30,12 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: #58595b;
+  color: #c6c7c9;
 }
 
-.calculator--button:hover{
-    background-color: aqua;
+.calculator--button:hover {
+  background-color: aqua;
 }
 
 #screen {
