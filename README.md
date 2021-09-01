@@ -37,6 +37,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [13 August, 2021]: I completed another very interesting project for **The Odin Project**. I created an Etch-a-Sketch pad, wich is basically a very simple paint app. This project was very satisfying to do beacause my kid son was super happy with it. I know I still have a lot to learn from Javascript, but these little things help and are very motivating to continue.
 
+* [01 September, 2021]: Yesterday I finished the JavaScipt Calculator Project. I made this Javascript application following my own approach, so I only allowed myself to look for help online when I was in doubt about the syntax of the language, but I designed the algorithm on my own. It was a fun process and in the end, the code, for better or for worse, turned out to be different from the rest of the solutions.
+
 # Projects
 
 ## The Odin Project
@@ -46,6 +48,7 @@ So, here I will document the progress and all the projects I make in this journe
 * [Google Results Page](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/google-homepage/)
 * [Project: Rock Paper Scissors](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/rock-paper-scissors/)
 * [Etch-a-Sketch](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/etch-a-sketch/).
+* [Calculator](https://maxibide.github.io/my-web-development-journey/the-odin-project/web-development-101/calculator/).
 
 ### HTML and CSS
 
