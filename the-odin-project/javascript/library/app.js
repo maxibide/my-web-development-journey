@@ -15,6 +15,7 @@ function Book(title, author, pages, address) {
 
 Book.prototype.toggleRead = function () {
     this.isRead = !this.isRead;
+    document.querySelector(`tr[data-index="${this.id}"]`).classList.toggle('table-success');
 }
 
 function addBookToLibrary(title, author, pages, address) {
@@ -38,12 +39,12 @@ function populateTable() {
 function addBookToTable(book) {
     const tableBody = document.querySelector("tbody");
     let row =
-        `<tr data-index-${book.id}>
+        `<tr data-index="${book.id}">
     <td>${book.title}</td>
     <td>${book.author}</td>
     <td>${book.pages}</td>
     <td>${book.address}</td>
-    <td><input type="checkbox" class="form-check-input" name="isRead" id="isRead1" /></td>
+    <td><input type="checkbox" class="form-check-input" name="isRead" id="isRead${book.id}" /></td>
     <td>
     <div
         class="
@@ -55,19 +56,42 @@ function addBookToTable(book) {
     >
         <i class="fas fa-arrow-up"></i
         ><i class="fas fa-arrow-down"></i
-        ><i class="fas fa-trash-alt"></i>
+        ><i class="fas fa-trash-alt" id="trash${book.id}"></i>
     </div>
     </td>
     </tr>`
 
     tableBody.insertAdjacentHTML("beforeend", row);
 
+    document.querySelector(`#isRead${book.id}`).addEventListener('click', () => {
+        book.toggleRead();
+    });
+
+    document.querySelector(`#trash${book.id}`).addEventListener('click', () => {
+        removeBookfromTable(book.id);
+    });
 }
 
 function removeBookfromTable(id) {
 
-    document.querySelector(`tr[data-index-${id}]`).remove();
+    document.querySelector(`tr[data-index="${id}"]`).remove();
 }
+
+const addButton = document.querySelector("#save");
+
+addButton.addEventListener('click', () => {
+    addBookToLibrary(document.querySelector("#title").value,
+        document.querySelector("#author").value,
+        document.querySelector("#pages").value,
+        document.querySelector("#location").value);
+
+    document.querySelector("#title").value = '';
+    document.querySelector("#author").value = '';
+    document.querySelector("#pages").value = '';
+    document.querySelector("#location").value = '';
+});
+
+
 
 // Desde acá borrar, esto esta por ahora solo para pruebas.
 
