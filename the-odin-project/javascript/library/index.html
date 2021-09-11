@@ -42,15 +42,23 @@
       "
     >
       <h1>My Reading List</h1>
-      <button class="btn btn-primary">Add Book</button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#inputBookModal"
+      >
+        Add Book
+      </button>
     </header>
     <div class="container">
       <main>
         <table
           class="
-            table table-bordered table
+            table table-bordered
             text-center
             mt-3
+            mb-5
             table-hover table-dark table-striped
           "
         >
@@ -66,15 +74,85 @@
           </thead>
           <tbody></tbody>
         </table>
+        <div
+          class="modal fade"
+          id="inputBookModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="inputBookModalTitle"
+          aria-hidden="false"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-custom text-white">
+              <div class="modal-header">
+                <h5 class="modal-title" id="inputBookModalTitle">Add book</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-bs-dismiss="modal"
+                  aria-label="close"
+                >
+                  <span aria-hiden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="title"
+                      id="title"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="author" class="form-label">Author</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="author"
+                      id="author"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pages" class="form-label">Pages</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      name="pages"
+                      id="pages"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="location" class="form-label">Location</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="location"
+                      id="location"
+                    />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button class="btn btn-primary" id="save">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
-    <footer class="d-flex justify-content-center mt-5 text-white">
-      <p class="mx-3">
+    <footer class="d-flex justify-content-center py-1 text-white fixed-bottom">
+      <p class="mx-3 my-2">
         By
         <a href="https://github.com/maxibide"><i class="fab fa-github"></i></a>
         Maximiliano Bidegain
       </p>
-      <p class="mx-3">2021</p>
+      <p class="mx-3 my-2">2021</p>
     </footer>
   </body>
 </html>

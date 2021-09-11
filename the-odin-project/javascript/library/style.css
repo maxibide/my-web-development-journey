@@ -11,12 +11,37 @@ table {
   -moz-box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
 }
 
-.fa-trash-alt:hover{
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fa-trash-alt:hover {
   color: #dc3545;
   cursor: pointer;
 }
 
-.fa-arrow-up:hover, .fa-arrow-down:hover {
+.fa-arrow-up:hover,
+.fa-arrow-down:hover {
   color: #0d6efd;
   cursor: pointer;
+}
+
+.bg-custom {
+  background: rgb(137, 86, 41); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(137, 86, 41, 1) 0%,
+    rgba(42, 15, 8, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(137, 86, 41, 1) 0%,
+    rgba(42, 15, 8, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    rgba(137, 86, 41, 1) 0%,
+    rgba(42, 15, 8, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#895629', endColorstr='#2a0f08',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }

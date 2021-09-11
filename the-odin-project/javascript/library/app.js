@@ -43,7 +43,7 @@ function addBookToTable(book) {
     <td>${book.author}</td>
     <td>${book.pages}</td>
     <td>${book.address}</td>
-    <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+    <td><input type="checkbox" class="form-check-input" name="isRead" id="isRead1" /></td>
     <td>
     <div
         class="
@@ -76,7 +76,6 @@ addBookToLibrary("Danielita la aventurera", "Daniela Anton", 99, "Librería de c
 addBookToLibrary("Leonardo el Vaquero", "Leíto", 80000, "En algún lugar");
 addBookToLibrary("Un libro que no me gusta", "Macri", 1, "A la basura");
 addBookToLibrary("Una bebe encantada", "Daiana", 101, "Librería de calibre");
-console.log("Estos son todos lo libros");
 console.log(JSON.parse(JSON.stringify(myLibrary)));
 console.log("Marco el libro de Daniela como leído");
 myLibrary[1].toggleRead();
