@@ -1,4 +1,5 @@
 let myLibrary = [];
+let lastId = 0;
 
 function Book(title, author, pages, address) {
     this.title = title;
@@ -6,11 +7,8 @@ function Book(title, author, pages, address) {
     this.pages = pages;
     this.address = address;
     this.isRead = false;
-    if (myLibrary.length === 0) {
-        this.id = 1;
-    } else {
-        this.id = myLibrary[myLibrary.length - 1].id + 1;
-    }
+    this.id = lastId + 1;
+    lastId += 1;
 }
 
 Book.prototype.toggleRead = function () {
@@ -24,9 +22,10 @@ function addBookToLibrary(title, author, pages, address) {
     addBookToTable(newBook);
 }
 
-function deleteBookfromLibrary(index) {
-    removeBookfromTable(myLibrary[index].id);
-    myLibrary.splice(index, 1);
+function deleteBookfromLibrary(id) {
+    myLibrary.splice(myLibrary.findIndex((book) => book.id === id), 1);
+    console.log(myLibrary);
+    removeBookfromTable(id);
 }
 
 function populateTable() {
@@ -54,8 +53,8 @@ function addBookToTable(book) {
         align-items-center
         "
     >
-        <i class="fas fa-arrow-up"></i
-        ><i class="fas fa-arrow-down"></i
+        <i class="fas fa-arrow-up" id="up${book.id}"></i
+        ><i class="fas fa-arrow-down" id="down${book.id}"></i
         ><i class="fas fa-trash-alt" id="trash${book.id}"></i>
     </div>
     </td>
@@ -68,13 +67,19 @@ function addBookToTable(book) {
     });
 
     document.querySelector(`#trash${book.id}`).addEventListener('click', () => {
-        removeBookfromTable(book.id);
+        deleteBookfromLibrary(book.id);
     });
 }
 
 function removeBookfromTable(id) {
 
     document.querySelector(`tr[data-index="${id}"]`).remove();
+}
+
+function swapBooks(indexA, indexB) {
+    const tmp = myLibrary[indexA];
+    myLibrary[indexA] = myLibrary[indexB];
+    myLibrary[indexB] = tmp;
 }
 
 const addButton = document.querySelector("#save");
@@ -100,10 +105,3 @@ addBookToLibrary("Danielita la aventurera", "Daniela Anton", 99, "Librería de c
 addBookToLibrary("Leonardo el Vaquero", "Leíto", 80000, "En algún lugar");
 addBookToLibrary("Un libro que no me gusta", "Macri", 1, "A la basura");
 addBookToLibrary("Una bebe encantada", "Daiana", 101, "Librería de calibre");
-console.log(JSON.parse(JSON.stringify(myLibrary)));
-console.log("Marco el libro de Daniela como leído");
-myLibrary[1].toggleRead();
-console.log(JSON.parse(JSON.stringify(myLibrary)));
-console.log("Borro el cuarto libro");
-deleteBookfromLibrary(3);
-console.log(JSON.parse(JSON.stringify(myLibrary)));
