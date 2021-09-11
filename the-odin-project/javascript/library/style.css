@@ -1,0 +1,22 @@
+body {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+table {
+  min-height: 60 vh;
+  box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
+  -webkit-box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
+  -moz-box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
+}
+
+.fa-trash-alt:hover{
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.fa-arrow-up:hover, .fa-arrow-down:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}

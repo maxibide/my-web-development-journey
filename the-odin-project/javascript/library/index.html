@@ -1,14 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Font Awesome-->
+    <script
+      defer
+      src="https://kit.fontawesome.com/092222252e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
     <title>My Reading List</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header
+      class="
+        border-bottom
+        p-3
+        jumbotron
+        d-flex
+        justify-content-evenly
+        text-white
+      "
+    >
+      <h1>My Reading List</h1>
+      <button class="btn btn-primary">Add Book</button>
+    </header>
+    <div class="container">
+      <main>
+        <table
+          class="
+            table table-bordered table
+            text-center
+            mt-3
+            table-hover table-dark table-striped
+          "
+        >
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Location</th>
+              <th>Read?</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-success">
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td>
+                <input type="checkbox" name="isRead" id="isRead1" checked />
+              </td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Maxi el conquistador</td>
+              <td>Maximiliano Bidegain</td>
+              <td>138</td>
+              <td>En casa</td>
+              <td><input type="checkbox" name="isRead" id="isRead1" /></td>
+              <td>
+                <div
+                  class="
+                    d-flex
+                    justify-content-around
+                    my-auto
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-arrow-up"></i
+                  ><i class="fas fa-arrow-down"></i
+                  ><i class="fas fa-trash-alt"></i>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+    <footer class="d-flex justify-content-center mt-5 text-white">
+      <p class="mx-3">
+        By
+        <a href="https://github.com/maxibide"><i class="fab fa-github"></i></a>
+        Maximiliano Bidegain
+      </p>
+      <p class="mx-3">2021</p>
+    </footer>
+  </body>
 </html>
