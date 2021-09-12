@@ -31,137 +31,157 @@
     <title>My Reading List</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <header
-        class="
-          border-bottom
-          p-3
-          jumbotron
-          d-flex
-          justify-content-evenly
-          text-white
-        "
-      >
-        <h1>My Reading List</h1>
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#inputBookModal"
-        >
-          Add Book
-        </button>
-      </header>
-      <main>
-        <table
-          class="
-            table table-bordered
-            text-center
-            mt-3
-            mb-5
-            table-hover table-dark table-striped
-          "
-        >
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Author</th>
-              <th>Pages</th>
-              <th>Location</th>
-              <th>Read?</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-        <div
-          class="modal fade"
-          id="inputBookModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="inputBookModalTitle"
-          aria-hidden="false"
-        >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content bg-custom text-white">
-              <div class="modal-header">
-                <h5 class="modal-title" id="inputBookModalTitle">Add book</h5>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="mb-3">
-                    <label for="title" class="form-label">Title</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="title"
-                      id="title"
-                    />
+    <div class="position-relative min-vh-100">
+      <div class="container-fluid">
+        <div class="content-wrap">
+          <header
+            class="
+              border-bottom
+              p-3
+              jumbotron
+              d-flex
+              justify-content-evenly
+              text-white
+            "
+          >
+            <h1>My Reading List</h1>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#inputBookModal"
+            >
+              Add Book
+            </button>
+          </header>
+          <main>
+            <div class="table-responsive">
+              <table
+                class="
+                  table table-sm table-bordered
+                  text-center
+                  mt-3
+                  table-hover table-dark table-striped
+                "
+              >
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Location</th>
+                    <th>Read?</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div
+              class="modal fade"
+              id="inputBookModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="inputBookModalTitle"
+              aria-hidden="false"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content bg-custom text-white">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="inputBookModalTitle">
+                      Add book
+                    </h5>
                   </div>
-                  <div class="mb-3">
-                    <label for="author" class="form-label">Author</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="author"
-                      id="author"
-                    />
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="title"
+                          id="title"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="author" class="form-label">Author</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="author"
+                          id="author"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="pages" class="form-label">Pages</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="pages"
+                          id="pages"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="location" class="form-label"
+                          >Location</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="location"
+                          id="location"
+                        />
+                      </div>
+                    </form>
                   </div>
-                  <div class="mb-3">
-                    <label for="pages" class="form-label">Pages</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      name="pages"
-                      id="pages"
-                    />
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                      id="close"
+                    >
+                      Close
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                      id="save"
+                    >
+                      Add book
+                    </button>
+                    <button
+                      class="btn btn-primary d-none"
+                      data-bs-dismiss="modal"
+                      id="change"
+                    >
+                      Save changes
+                    </button>
                   </div>
-                  <div class="mb-3">
-                    <label for="location" class="form-label">Location</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="location"
-                      id="location"
-                    />
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                  id="close"
-                >
-                  Close
-                </button>
-                <button
-                  class="btn btn-primary"
-                  data-bs-dismiss="modal"
-                  id="save"
-                >
-                  Add book
-                </button>
-                <button
-                  class="btn btn-primary d-none"
-                  data-bs-dismiss="modal"
-                  id="change"
-                >
-                  Save changes
-                </button>
+                </div>
               </div>
             </div>
-          </div>
+          </main>
+          <footer
+            class="
+              d-flex
+              justify-content-center
+              py-1
+              text-white
+              position-absolute
+              bottom-0
+            "
+          >
+            <p class="mx-3 my-2">
+              By
+              <a href="https://github.com/maxibide"
+                ><i class="fab fa-github"></i
+              ></a>
+              Maximiliano Bidegain
+            </p>
+            <p class="mx-3 my-2">2021</p>
+          </footer>
         </div>
-      </main>
+      </div>
     </div>
-    <footer class="d-flex justify-content-center py-1 text-white fixed-bottom">
-      <p class="mx-3 my-2">
-        By
-        <a href="https://github.com/maxibide"><i class="fab fa-github"></i></a>
-        Maximiliano Bidegain
-      </p>
-      <p class="mx-3 my-2">2021</p>
-    </footer>
   </body>
 </html>

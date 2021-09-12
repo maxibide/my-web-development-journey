@@ -123,10 +123,10 @@ function addBookToTable(book) {
         align-items-center
         "
     >
-        <i class="fas fa-arrow-up mx-2 mx-md-0" id="up${book.id}"></i>
-        <i class="fas fa-arrow-down mx-2 mx-md-0" id="down${book.id}"></i>
-        <i class="fas fa-pencil-alt mx-2 mx-md-0" id="edit${book.id}"></i>
-        <i class="fas fa-trash-alt mx-2 mx-md-0" id="trash${book.id}"></i>
+        <i class="fas fa-arrow-up mx-1 mx-md-0" id="up${book.id}"></i>
+        <i class="fas fa-arrow-down mx-1 mx-md-0" id="down${book.id}"></i>
+        <i class="fas fa-pencil-alt mx-1 mx-md-0" id="edit${book.id}"></i>
+        <i class="fas fa-trash-alt mx-1 mx-md-0" id="trash${book.id}"></i>
     </div>
     </td>
     </tr>`

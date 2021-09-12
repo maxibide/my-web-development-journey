@@ -9,10 +9,16 @@ table {
   box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
   -webkit-box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
   -moz-box-shadow: 17px 16px 25px 1px rgba(33, 37, 41, 0.8);
+  margin-bottom: 300px;
 }
 
 footer {
   background-color: rgba(0, 0, 0, 0.8);
+  width: calc(100% - 24px);
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 .fa-trash-alt:hover {
