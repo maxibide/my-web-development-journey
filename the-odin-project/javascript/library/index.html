@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Font Awesome-->
+    <script
+      defer
+      src="https://kit.fontawesome.com/092222252e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>My Reading List</title>
+  </head>
+  <body>
+    <div class="position-relative min-vh-100">
+      <div class="container-fluid">
+        <div class="content-wrap">
+          <header
+            class="
+              border-bottom
+              p-3
+              jumbotron
+              d-flex
+              justify-content-evenly
+              text-white
+            "
+          >
+            <h1>My Reading List</h1>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#inputBookModal"
+            >
+              Add Book
+            </button>
+          </header>
+          <main>
+            <div class="table-responsive">
+              <table
+                class="
+                  table table-sm table-bordered
+                  text-center
+                  mt-3
+                  table-hover table-dark table-striped
+                "
+              >
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Location</th>
+                    <th>Read?</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div
+              class="modal fade"
+              id="inputBookModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="inputBookModalTitle"
+              aria-hidden="false"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content bg-custom text-white">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="inputBookModalTitle">
+                      Add book
+                    </h5>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="title"
+                          id="title"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="author" class="form-label">Author</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="author"
+                          id="author"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="pages" class="form-label">Pages</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="pages"
+                          id="pages"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="location" class="form-label"
+                          >Location</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="location"
+                          id="location"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                      id="close"
+                    >
+                      Close
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                      id="save"
+                    >
+                      Add book
+                    </button>
+                    <button
+                      class="btn btn-primary d-none"
+                      data-bs-dismiss="modal"
+                      id="change"
+                    >
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer
+            class="
+              d-flex
+              justify-content-center
+              py-1
+              text-white
+              position-absolute
+              bottom-0
+            "
+          >
+            <p class="mx-3 my-2">
+              By
+              <a href="https://github.com/maxibide"
+                ><i class="fab fa-github"></i
+              ></a>
+              Maximiliano Bidegain
+            </p>
+            <p class="mx-3 my-2">2021</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
