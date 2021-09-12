@@ -86,14 +86,6 @@
             <div class="modal-content bg-custom text-white">
               <div class="modal-header">
                 <h5 class="modal-title" id="inputBookModalTitle">Add book</h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-bs-dismiss="modal"
-                  aria-label="close"
-                >
-                  <span aria-hiden="true">&times;</span>
-                </button>
               </div>
               <div class="modal-body">
                 <form>
@@ -136,13 +128,24 @@
                 </form>
               </div>
               <div class="modal-footer">
-                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                <button
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                  id="close"
+                >
                   Close
                 </button>
                 <button
                   class="btn btn-primary"
                   data-bs-dismiss="modal"
                   id="save"
+                >
+                  Add book
+                </button>
+                <button
+                  class="btn btn-primary d-none"
+                  data-bs-dismiss="modal"
+                  id="change"
                 >
                   Save changes
                 </button>

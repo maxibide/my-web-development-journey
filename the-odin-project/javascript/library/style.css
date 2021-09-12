@@ -21,7 +21,8 @@ footer {
 }
 
 .fa-arrow-up:hover,
-.fa-arrow-down:hover {
+.fa-arrow-down:hover,
+.fa-pencil-alt:hover {
   color: #0d6efd;
   cursor: pointer;
 }

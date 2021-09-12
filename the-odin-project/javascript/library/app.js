@@ -35,6 +35,52 @@ Book.prototype.toggleRead = function () {
     saveMyLibraryToCache();
 }
 
+Book.prototype.editBook = function () {
+
+    const saveEdit = document.querySelector("#change");
+    const close = document.querySelector("#close");
+
+    document.querySelector("#save").classList.toggle('d-none');
+    saveEdit.classList.toggle('d-none');
+    document.querySelector("#title").value = this.title;
+    document.querySelector("#author").value = this.author;
+    document.querySelector("#pages").value = this.pages;
+    document.querySelector("#location").value = this.address;
+
+
+    const modal = new bootstrap.Modal(document.querySelector("#inputBookModal"), { keyboard: false });
+    modal.show();
+
+    saveEdit.addEventListener('click', () => {
+
+        this.title = document.querySelector("#title").value;
+        this.author = document.querySelector("#author").value;
+        this.pages = document.querySelector("#pages").value;
+        this.address = document.querySelector("#location").value;
+
+        document.querySelector("#title").value = '';
+        document.querySelector("#author").value = '';
+        document.querySelector("#pages").value = '';
+        document.querySelector("#location").value = '';
+        
+        saveMyLibraryToCache();
+        updateTableEntry(this.id);
+
+        document.querySelector("#save").classList.toggle('d-none');
+        saveEdit.classList.toggle('d-none');
+    });
+
+    close.addEventListener('click', () => {
+        document.querySelector("#title").value = '';
+        document.querySelector("#author").value = '';
+        document.querySelector("#pages").value = '';
+        document.querySelector("#location").value = '';
+
+        document.querySelector("#save").classList.toggle('d-none');
+        saveEdit.classList.toggle('d-none');
+    });
+}
+
 function addBookToLibrary(title, author, pages, address) {
     let newBook = new Book(title, author, pages, address);
     myLibrary.push(newBook);
@@ -77,9 +123,10 @@ function addBookToTable(book) {
         align-items-center
         "
     >
-        <i class="fas fa-arrow-up" id="up${book.id}"></i
-        ><i class="fas fa-arrow-down" id="down${book.id}"></i
-        ><i class="fas fa-trash-alt" id="trash${book.id}"></i>
+        <i class="fas fa-arrow-up mx-2 mx-md-0" id="up${book.id}"></i>
+        <i class="fas fa-arrow-down mx-2 mx-md-0" id="down${book.id}"></i>
+        <i class="fas fa-pencil-alt mx-2 mx-md-0" id="edit${book.id}"></i>
+        <i class="fas fa-trash-alt mx-2 mx-md-0" id="trash${book.id}"></i>
     </div>
     </td>
     </tr>`
@@ -109,6 +156,10 @@ function addBookToTable(book) {
             swapBooksInTable(book.id, "next");
         }
     });
+
+    document.querySelector(`#edit${book.id}`).addEventListener('click', () => {
+        book.editBook();
+    })
 }
 
 function removeBookFromTable(id) {
@@ -125,16 +176,27 @@ function swapBooksInLibrary(indexA, indexB) {
 
 function swapBooksInTable(id, pos) {
     const row = document.querySelector(`tr[data-index="${id}"]`);
-    rowParent = row.parentNode;
+    let rowParent = row.parentNode;
     if (pos === "previous") {
-        swapRow = row.previousSibling;
-        oldRow = rowParent.removeChild(row);
+        let swapRow = row.previousSibling;
+        let oldRow = rowParent.removeChild(row);
         rowParent.insertBefore(oldRow, swapRow)
     } else if (pos === "next") {
-        swapRow = row.nextSibling;
-        oldRow = rowParent.removeChild(row);
+        let swapRow = row.nextSibling;
+        let oldRow = rowParent.removeChild(row);
         rowParent.insertBefore(oldRow, swapRow.nextSibling)
     }
+}
+
+function updateTableEntry(id) {
+    let index = myLibrary.findIndex((obj) => obj.id === id)
+    let oldEntry = document.querySelector(`tr[data-index="${id}"]`);
+    let parent = oldEntry.parentNode;
+    let nextEntry = oldEntry.nextSibling;
+    parent.removeChild(oldEntry);
+    addBookToTable(myLibrary[index]);
+    let newEntry = document.querySelector(`tr[data-index="${id}"]`);
+    parent.insertBefore(newEntry, nextEntry);
 }
 
 const addButton = document.querySelector("#save");
