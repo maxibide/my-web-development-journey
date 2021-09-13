@@ -82,12 +82,13 @@ function addBookToTable(book) {
         justify-content-around
         my-auto
         align-items-center
+        flex-column flex-md-row
         "
     >
-        <i class="fas fa-arrow-up mx-1 mx-md-0" id="up${book.id}"></i>
-        <i class="fas fa-arrow-down mx-1 mx-md-0" id="down${book.id}"></i>
-        <i class="fas fa-pencil-alt mx-1 mx-md-0" id="edit${book.id}"></i>
-        <i class="fas fa-trash-alt mx-1 mx-md-0" id="trash${book.id}"></i>
+        <i class="fas fa-arrow-up my-1 my-md-0" id="up${book.id}"></i>
+        <i class="fas fa-arrow-down my-1 my-md-0" id="down${book.id}"></i>
+        <i class="fas fa-pencil-alt my-1 my-md-0" id="edit${book.id}"></i>
+        <i class="fas fa-trash-alt my-1 my-md-0" id="trash${book.id}"></i>
     </div>
     </td>
     </tr>`
