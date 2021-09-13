@@ -1,5 +1,6 @@
 let myLibrary = [];
 let lastId = 0;
+const modal = new bootstrap.Modal(document.querySelector("#inputBookModal"), { keyboard: false });
 
 // Load myLibrary and lastId from cache
 if (localStorage.getItem("myLibrary") !== null) {
@@ -36,49 +37,10 @@ Book.prototype.toggleRead = function () {
 }
 
 Book.prototype.editBook = function () {
-
-    const saveEdit = document.querySelector("#change");
-    const close = document.querySelector("#close");
-
-    document.querySelector("#save").classList.toggle('d-none');
-    saveEdit.classList.toggle('d-none');
-    document.querySelector("#title").value = this.title;
-    document.querySelector("#author").value = this.author;
-    document.querySelector("#pages").value = this.pages;
-    document.querySelector("#location").value = this.address;
-
-
-    const modal = new bootstrap.Modal(document.querySelector("#inputBookModal"), { keyboard: false });
-    modal.show();
-
-    saveEdit.addEventListener('click', () => {
-
-        this.title = document.querySelector("#title").value;
-        this.author = document.querySelector("#author").value;
-        this.pages = document.querySelector("#pages").value;
-        this.address = document.querySelector("#location").value;
-
-        document.querySelector("#title").value = '';
-        document.querySelector("#author").value = '';
-        document.querySelector("#pages").value = '';
-        document.querySelector("#location").value = '';
-        
-        saveMyLibraryToCache();
-        updateTableEntry(this.id);
-
-        document.querySelector("#save").classList.toggle('d-none');
-        saveEdit.classList.toggle('d-none');
-    });
-
-    close.addEventListener('click', () => {
-        document.querySelector("#title").value = '';
-        document.querySelector("#author").value = '';
-        document.querySelector("#pages").value = '';
-        document.querySelector("#location").value = '';
-
-        document.querySelector("#save").classList.toggle('d-none');
-        saveEdit.classList.toggle('d-none');
-    });
+    this.title = document.querySelector("#title").value;
+    this.author = document.querySelector("#author").value;
+    this.pages = document.querySelector("#pages").value;
+    this.address = document.querySelector("#location").value;
 }
 
 function addBookToLibrary(title, author, pages, address) {
@@ -90,7 +52,6 @@ function addBookToLibrary(title, author, pages, address) {
 
 function deleteBookfromLibrary(id) {
     myLibrary.splice(myLibrary.findIndex((book) => book.id === id), 1);
-    console.log(myLibrary);
     removeBookFromTable(id);
     saveMyLibraryToCache();
 }
@@ -158,8 +119,33 @@ function addBookToTable(book) {
     });
 
     document.querySelector(`#edit${book.id}`).addEventListener('click', () => {
-        book.editBook();
-    })
+        if (document.querySelector("#change").classList.contains("d-none")) {
+            document.querySelector("#save").classList.toggle('d-none');
+            document.querySelector("#change").classList.toggle('d-none');
+        }
+
+        document.querySelector("#title").value = book.title;
+        document.querySelector("#author").value = book.author;
+        document.querySelector("#pages").value = book.pages;
+        document.querySelector("#location").value = book.address;
+        modal.show();
+
+        saveChange = function () {
+            book.editBook();
+            console.log(book.id);
+            saveMyLibraryToCache();
+            updateTableEntry(book.id);
+            document.querySelector("#title").value = '';
+            document.querySelector("#author").value = '';
+            document.querySelector("#pages").value = '';
+            document.querySelector("#location").value = '';
+            modal.hide();
+            document.querySelector("#change").removeEventListener('click', saveChange);
+
+        };
+
+        document.querySelector("#change").addEventListener('click', saveChange);
+    });
 }
 
 function removeBookFromTable(id) {
@@ -211,4 +197,24 @@ addButton.addEventListener('click', () => {
     document.querySelector("#author").value = '';
     document.querySelector("#pages").value = '';
     document.querySelector("#location").value = '';
+    modal.hide();
+});
+
+document.querySelector("#mainButton").addEventListener('click', () => {
+    if (document.querySelector("#save").classList.contains("d-none")) {
+        document.querySelector("#save").classList.toggle('d-none');
+        document.querySelector("#change").classList.toggle('d-none');
+    }
+
+    modal.show()
+});
+
+document.querySelector("#close").addEventListener('click', () => {
+    document.querySelector("#title").value = '';
+    document.querySelector("#author").value = '';
+    document.querySelector("#pages").value = '';
+    document.querySelector("#location").value = '';
+    modal.hide();
+    // neccesary in case event listener was created if modal opened from entry editor.
+    document.querySelector("#change").removeEventListener('click', saveChange);
 });
