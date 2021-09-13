@@ -39,6 +39,8 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 
 * [01 de Septiembre de 2021]: Ayer terminé el proyecto de Calculadora en JavaScipt. Hice esta aplicación de Javascript siguiendo mi propio enfoque, por lo que solo me permití buscar ayuda en línea cuando tenía dudas sobre la sintaxis del lenguaje, pero diseñé el algoritmo por mi cuenta. Fue un proceso divertido y al final, el código, para bien o para mal, resultó ser diferente al resto de soluciones. 
 
+* [13 de Septiembre de 2021]: Terminé el proyecto de la Biblioteca, el primer proyecto del **curso de JavaScript** en **The Odin Project**. No solo aprendí conceptos muy importantes de programación y JavaScript, también fue un proyecto muy útil porque lo usaré como mi lista de lectura personal :smile::muscle:. En los proyectos de JavaScript anteriores en el curso *Foundations*, me tomó más tiempo desarrollar la UX y la interfaz de usuario que codificar la aplicación en sí. Entonces, para este proyecto aproveché el poder de Bootstrap. Fue una buena idea ya que pude concentrarme más en la aplicación y aprender Javascript y terminé con una interfaz de usuario agradable y pulida mucho más rápido que en los proyectos anteriores.
+
 # Proyectos
 
 ## El proyecto Odin
@@ -60,6 +62,10 @@ Entonces, aquí documentaré el progreso y todos los proyectos que hago en este 
 * [Proyecto de construcción con diseño responsivo](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
 * [Usando Bootstrap - Clon de Newsweek](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/bootstrap-newsweek/index.html)
 * [Diseño de un diseño basado en grillas propio](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/grid-framework/index.html)
+
+### JavaScript
+
+* [Biblioteca](https://maxibide.github.io/my-web-development-journey/the-odin-project/javascript/library/)
 
 ## freeCodeCamp
 

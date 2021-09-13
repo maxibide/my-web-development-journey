@@ -39,6 +39,8 @@ So, here I will document the progress and all the projects I make in this journe
 
 * [01 September, 2021]: Yesterday I finished the JavaScipt Calculator Project. I made this Javascript application following my own approach, so I only allowed myself to look for help online when I was in doubt about the syntax of the language, but I designed the algorithm on my own. It was a fun process and in the end, the code, for better or for worse, turned out to be different from the rest of the solutions.
 
+* [13 September, 2021]: I finished the Library project, the first project of the **JavaScript course** in **The Odin Project**. Not only I learned very important programming and JavaScript concepts, it was also a very useful project because I will be using it as my personal reading list :smile::muscle:. In the previous javascript projects in the Foundation course it took me more time to develop the UX and UI than coding the app itself. So, for this project I leveraged the power of Bootstrap. It was a good a idea as I could focus more on the app and learning Javascript and ended with a nice and polished UI much faster than in the previous projects.
+
 # Projects
 
 ## The Odin Project
@@ -60,6 +62,10 @@ So, here I will document the progress and all the projects I make in this journe
 * [Building with Responsive Design](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/responsive-tnw-homepage/index.html)
 * [Using Bootstrap - Newsweek clone](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/bootstrap-newsweek/index.html)
 * [Design Your Own Grid-Based Framework](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/grid-framework/index.html)
+
+### JavaScript
+
+* [Library](https://maxibide.github.io/my-web-development-journey/the-odin-project/javascript/library/)
 
 ## freeCodeCamp
 
